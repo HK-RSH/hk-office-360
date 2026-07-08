@@ -10,8 +10,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
-<script src="dashboard_data.js"></script>
-<script src="stacking_plan_data.js"></script>
+<script src="dashboard_data.js?v=20260708"></script>
+<script src="stacking_plan_data.js?v=20260708"></script>
 <style>
 @font-face{font-family:"Financier Display";src:url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-regular.woff2") format("woff2"),url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-regular-w.woff") format("woff");font-weight:400;font-style:normal;font-display:block}
 @font-face{font-family:"Financier Display";src:url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-medium.woff2") format("woff2"),url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-medium-w.woff") format("woff");font-weight:500;font-style:normal;font-display:block}
@@ -258,8 +258,6 @@ select,input[type=text]{padding:5px 9px;border:1px solid var(--border);border-ra
           <option value="1">Q1</option><option value="2">Q2</option>
           <option value="3">Q3</option><option value="4">Q4</option>
         </select>
-        <label>Submarket</label>
-        <select id="f-sec-sub" onchange="updateSectorChart()"><option value="">All Submarkets</option></select>
         <button class="btn-reset" onclick="resetSectorFilters()">Reset</button>
       </div>
       <div class="chart-wrap ch-xl"><canvas id="sectorChart"></canvas></div>
@@ -883,7 +881,7 @@ function buildTransactionTab(tx) {
   // ── Populate filter dropdowns ────────────────────────────────────────
   const submkts = tx.submkts || [];
   const sectors = tx.sectors || [];
-  ['f-ann-sub','f-sec-sub'].forEach(id=>{
+  ['f-ann-sub'].forEach(id=>{
     const el = document.getElementById(id);
     if(!el) return;
     submkts.forEach(s=>{ const o=document.createElement('option');o.value=s;o.textContent=s;el.appendChild(o); });
@@ -1045,6 +1043,9 @@ function updateVolumeChart() {
       }
     }
   });
+  // Sync transaction table and sector donut with current submarket filter
+  filterTxnTable();
+  if (CHARTS.sectorChart) updateSectorChart();
 }
 
 function resetVolumeFilters(){
@@ -1057,7 +1058,7 @@ function resetVolumeFilters(){
 function updateSectorChart() {
   const yr  = document.getElementById('f-sec-year').value;
   const qtr = document.getElementById('f-sec-qtr').value;
-  const sub = document.getElementById('f-sec-sub').value;
+  const sub = document.getElementById('f-ann-sub').value;  // synced with volume chart submarket
   let data = RAW_NL;
   if(yr)  data = data.filter(r=>r.y==yr);
   if(qtr) data = data.filter(r=>r.q==qtr);
@@ -1082,7 +1083,6 @@ function updateSectorChart() {
 function resetSectorFilters(){
   document.getElementById('f-sec-year').value='';
   document.getElementById('f-sec-qtr').value='';
-  document.getElementById('f-sec-sub').value='';
   updateSectorChart();
 }
 
@@ -1111,8 +1111,13 @@ function renderTxnTable(deals) {
 }
 
 function filterTxnTable() {
-  const q = document.getElementById('txn-search').value.toLowerCase();
-  const filtered = q ? ALL_DEALS.filter(r=>(r.building+''+r.tenant).toLowerCase().includes(q)) : ALL_DEALS;
+  const q   = document.getElementById('txn-search').value.toLowerCase();
+  const sub = document.getElementById('f-ann-sub').value;
+  const sec = document.getElementById('f-ann-sec').value;
+  let filtered = ALL_DEALS;
+  if (sub) filtered = filtered.filter(r => r.submarket === sub);
+  if (sec) filtered = filtered.filter(r => r.sector    === sec);
+  if (q)   filtered = filtered.filter(r => (r.building+''+r.tenant).toLowerCase().includes(q));
   renderTxnTable(filtered);
 }
 

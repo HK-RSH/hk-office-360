@@ -3,7 +3,7 @@
     "emeraldwalk.runonsave": {
         "commands": [
             {
-                "match": "\\.html$",
+                "match": "\\.(html|js|json)$",
                 "cmd": "git add . && git commit -m 'sync' && git push"
             }
         ]

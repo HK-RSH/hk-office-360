@@ -1,10 +1,11 @@
 {
     "git.autofetch": "all",
+    "files.eol": "\r\n",
     "emeraldwalk.runonsave": {
         "commands": [
             {
                 "match": "\\.(html|js|json)$",
-                "cmd": "git add . && git commit -m 'sync' && git push"
+                "cmd": "cd \"C:/Users/ZTang4/OneDrive - CBRE, Inc/Claude/Office/Office Dashboard/hk-office-360\" && for /d %a in (\"%LocalAppData%/GitHubDesktop/app-*\") do \"%a/resources/app/git/cmd/git.exe\" add . && for /d %a in (\"%LocalAppData%/GitHubDesktop/app-*\") do \"%a/resources/app/git/cmd/git.exe\" commit -m \"auto-sync\" && for /d %a in (\"%LocalAppData%/GitHubDesktop/app-*\") do \"%a/resources/app/git/cmd/git.exe\" push"
             }
         ]
     }

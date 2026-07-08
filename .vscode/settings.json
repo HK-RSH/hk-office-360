@@ -1,0 +1,11 @@
+{
+    "git.autofetch": "all",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.html$",
+                "cmd": "git commit -am 'Auto-update dashboard' && git push"
+            }
+        ]
+    }
+}

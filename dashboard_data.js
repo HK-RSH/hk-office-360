@@ -142224,18 +142224,6 @@ window.DASHBOARD_DATA = {
         "gfa": 10028.0
       },
       {
-        "date": "2026-06-28",
-        "building": "The Hennessy",
-        "submarket": "Wan Chai",
-        "district": "Wan Chai And Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Pickleball Lab Ltd",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 3495.0
-      },
-      {
         "date": "2026-06-26",
         "building": "Berkshire House",
         "submarket": "Hong Kong East",
@@ -142282,18 +142270,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 7129.7344,
         "gfa": 7808.0
-      },
-      {
-        "date": "2026-06-20",
-        "building": "Plaza 228",
-        "submarket": "Wan Chai",
-        "district": "Wan Chai And Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "The Financial Secretary Incorporated",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 2697.0
       },
       {
         "date": "2026-06-20",
@@ -142345,18 +142321,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-17",
-        "building": "Man Yee Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 2469.6,
-        "gfa": 2744.0
-      },
-      {
-        "date": "2026-06-17",
         "building": "NEO",
         "submarket": "Kowloon East",
         "district": "Kwun Tong",
@@ -142366,42 +142330,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 9582.3,
         "gfa": 12285.0
-      },
-      {
-        "date": "2026-06-17",
-        "building": "Exchange Tower",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 2940.75,
-        "gfa": 3921.0
-      },
-      {
-        "date": "2026-06-17",
-        "building": "Man Yee Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 2002.5,
-        "gfa": 2225.0
-      },
-      {
-        "date": "2026-06-17",
-        "building": "Man Yee Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3384.0,
-        "gfa": 3760.0
       },
       {
         "date": "2026-06-16",
@@ -142417,15 +142345,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-16",
-        "building": "AIRSIDE",
-        "submarket": "Kowloon East",
-        "district": "Kai Tak",
+        "building": "International Gateway Centre",
+        "submarket": "Tsim Sha Tsui West",
+        "district": "Tsim Sha Tsui West",
         "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "tenant": "Lioner Group",
+        "sector": "Insurance",
         "type": "New Letting",
-        "nfa": 14471.44,
-        "gfa": 19556.0
+        "nfa": 9423.0,
+        "gfa": 12564.0
       },
       {
         "date": "2026-06-16",
@@ -142441,15 +142369,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-16",
-        "building": "International Gateway Centre",
-        "submarket": "Tsim Sha Tsui West",
-        "district": "Tsim Sha Tsui West",
+        "building": "AIRSIDE",
+        "submarket": "Kowloon East",
+        "district": "Kai Tak",
         "area": "Kowloon",
-        "tenant": "Lioner Group",
-        "sector": "Insurance",
+        "tenant": "TBC",
+        "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 9423.0,
-        "gfa": 12564.0
+        "nfa": 14471.44,
+        "gfa": 19556.0
       },
       {
         "date": "2026-06-15",
@@ -142474,54 +142402,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 4642.5,
         "gfa": 6190.0
-      },
-      {
-        "date": "2026-06-15",
-        "building": "International Commerce Centre",
-        "submarket": "Tsim Sha Tsui West",
-        "district": "Tsim Sha Tsui West",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 11431.68,
-        "gfa": 14656.0
-      },
-      {
-        "date": "2026-06-15",
-        "building": "Two Taikoo Place",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 21267.0,
-        "gfa": 23630.0
-      },
-      {
-        "date": "2026-06-15",
-        "building": "LHT Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1270.3547,
-        "gfa": 1401.0
-      },
-      {
-        "date": "2026-06-15",
-        "building": "Man Yee Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1379.7,
-        "gfa": 1533.0
       },
       {
         "date": "2026-06-15",
@@ -142561,42 +142441,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-11",
-        "building": "Two Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 3657.0,
-        "gfa": 3657.0
-      },
-      {
-        "date": "2026-06-11",
-        "building": "Two Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 878.0,
-        "gfa": 878.0
-      },
-      {
-        "date": "2026-06-11",
-        "building": "Two Pacific Place",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "Harvest Global Investment Limited",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 10856.7,
-        "gfa": 12063.0
-      },
-      {
-        "date": "2026-06-11",
         "building": "Two Pacific Place",
         "submarket": "Admiralty & Sheung Wan",
         "district": "Admiralty",
@@ -142606,42 +142450,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 6692.4,
         "gfa": 7436.0
-      },
-      {
-        "date": "2026-06-11",
-        "building": "AIRSIDE",
-        "submarket": "Kowloon East",
-        "district": "Kai Tak",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 7155.8,
-        "gfa": 9670.0
-      },
-      {
-        "date": "2026-06-11",
-        "building": "Foyer (625 King's Road)",
-        "submarket": "Hong Kong East",
-        "district": "North Point",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2144.0,
-        "gfa": 2680.0
-      },
-      {
-        "date": "2026-06-11",
-        "building": "World Finance Centre, South Tower",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "Core Pacific-Yamaichi International (HK) Ltd",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 6746.4,
-        "gfa": 8433.0
       },
       {
         "date": "2026-06-11",
@@ -142657,6 +142465,30 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-11",
+        "building": "World Finance Centre, South Tower",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "Core Pacific-Yamaichi International (HK) Ltd",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 6746.4,
+        "gfa": 8433.0
+      },
+      {
+        "date": "2026-06-11",
+        "building": "AIRSIDE",
+        "submarket": "Kowloon East",
+        "district": "Kai Tak",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 7155.8,
+        "gfa": 9670.0
+      },
+      {
+        "date": "2026-06-11",
         "building": "Grand Century Place, Tower 1",
         "submarket": "Kowloon Others",
         "district": "Mong Kok",
@@ -142668,40 +142500,28 @@ window.DASHBOARD_DATA = {
         "gfa": 3574.0
       },
       {
-        "date": "2026-06-10",
-        "building": "Cheung Kong Center II",
-        "submarket": "Central",
-        "district": "Central A1",
+        "date": "2026-06-11",
+        "building": "Foyer (625 King's Road)",
+        "submarket": "Hong Kong East",
+        "district": "North Point",
         "area": "Hong Kong Island",
-        "tenant": "Amber Group",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2144.0,
+        "gfa": 2680.0
+      },
+      {
+        "date": "2026-06-11",
+        "building": "Two Pacific Place",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "Harvest Global Investment Limited",
         "sector": "Banking and financial services",
         "type": "New Letting",
-        "nfa": 9109.36,
-        "gfa": 11986.0
-      },
-      {
-        "date": "2026-06-10",
-        "building": "One Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 6433.0,
-        "gfa": 6433.0
-      },
-      {
-        "date": "2026-06-10",
-        "building": "Cheung Kong Center",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 9731.7,
-        "gfa": 10813.0
+        "nfa": 10856.7,
+        "gfa": 12063.0
       },
       {
         "date": "2026-06-10",
@@ -142717,15 +142537,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-10",
-        "building": "Cheung Kong Center II",
+        "building": "Cheung Kong Center",
         "submarket": "Central",
         "district": "Central A1",
         "area": "Hong Kong Island",
-        "tenant": "Health 160",
-        "sector": "IT and technology",
+        "tenant": "TBC",
+        "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 6556.52,
-        "gfa": 8627.0
+        "nfa": 9731.7,
+        "gfa": 10813.0
       },
       {
         "date": "2026-06-10",
@@ -142740,16 +142560,28 @@ window.DASHBOARD_DATA = {
         "gfa": 8627.0
       },
       {
-        "date": "2026-06-08",
-        "building": "Allied Kajima Building",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
+        "date": "2026-06-10",
+        "building": "Cheung Kong Center II",
+        "submarket": "Central",
+        "district": "Central A1",
         "area": "Hong Kong Island",
-        "tenant": "SIA Energy Ltd",
-        "sector": "Other professional services",
+        "tenant": "Amber Group",
+        "sector": "Banking and financial services",
         "type": "New Letting",
-        "nfa": 564.0,
-        "gfa": 705.0
+        "nfa": 9109.36,
+        "gfa": 11986.0
+      },
+      {
+        "date": "2026-06-10",
+        "building": "Cheung Kong Center II",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Health 160",
+        "sector": "IT and technology",
+        "type": "New Letting",
+        "nfa": 6556.52,
+        "gfa": 8627.0
       },
       {
         "date": "2026-06-08",
@@ -142762,18 +142594,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 644.8,
         "gfa": 806.0
-      },
-      {
-        "date": "2026-06-08",
-        "building": "COFCO Tower",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1445.5,
-        "gfa": 2065.0
       },
       {
         "date": "2026-06-08",
@@ -142798,6 +142618,18 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1723.02,
         "gfa": 2209.0
+      },
+      {
+        "date": "2026-06-08",
+        "building": "Allied Kajima Building",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "SIA Energy Ltd",
+        "sector": "Other professional services",
+        "type": "New Letting",
+        "nfa": 564.0,
+        "gfa": 705.0
       },
       {
         "date": "2026-06-08",
@@ -142849,42 +142681,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-04",
-        "building": "Two Pacific Place",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 3352.5,
-        "gfa": 3725.0
-      },
-      {
-        "date": "2026-06-04",
-        "building": "Two IFC",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "Qube Research & Technologies",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 9980.16,
-        "gfa": 10848.0
-      },
-      {
-        "date": "2026-06-04",
-        "building": "Tak Shing House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Cygnus Huacai Limited/ Mission Capital Management Limited",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 1046.35,
-        "gfa": 1231.0
-      },
-      {
-        "date": "2026-06-04",
         "building": "Landmark South",
         "submarket": "Wong Chuk Hang",
         "district": "Wong Chuk Hang",
@@ -142909,6 +142705,30 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-06-04",
+        "building": "Tak Shing House",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Cygnus Huacai Limited/ Mission Capital Management Limited",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 1046.35,
+        "gfa": 1231.0
+      },
+      {
+        "date": "2026-06-04",
+        "building": "Two Pacific Place",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 3352.5,
+        "gfa": 3725.0
+      },
+      {
+        "date": "2026-06-04",
         "building": "Two Taikoo Place",
         "submarket": "Hong Kong East",
         "district": "Quarry Bay",
@@ -142918,6 +142738,18 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 29562.3,
         "gfa": 32847.0
+      },
+      {
+        "date": "2026-06-04",
+        "building": "Two IFC",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Qube Research & Technologies",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 9980.16,
+        "gfa": 10848.0
       },
       {
         "date": "2026-06-03",
@@ -142930,54 +142762,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 6612.3,
         "gfa": 7347.0
-      },
-      {
-        "date": "2026-06-03",
-        "building": "Wing On House",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Medifast",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 7743.4,
-        "gfa": 11062.0
-      },
-      {
-        "date": "2026-06-03",
-        "building": "Nina Tower",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 2233.0,
-        "gfa": 3190.0
-      },
-      {
-        "date": "2026-06-03",
-        "building": "Nina Tower",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 2250.5,
-        "gfa": 3215.0
-      },
-      {
-        "date": "2026-06-02",
-        "building": "Exchange Tower",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1171.5,
-        "gfa": 1562.0
       },
       {
         "date": "2026-06-02",
@@ -143005,6 +142789,78 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-31",
+        "building": "Three Garden Road - ICBC Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2618.0,
+        "gfa": 3080.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "AIRSIDE",
+        "submarket": "Kowloon East",
+        "district": "Kai Tak",
+        "area": "Kowloon",
+        "tenant": "AIA",
+        "sector": "Insurance",
+        "type": "New Letting",
+        "nfa": 7648.64,
+        "gfa": 10336.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Infinitus Plaza",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Sheung Wan",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 3036.8,
+        "gfa": 4160.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Three Garden Road - Champion Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 720.8,
+        "gfa": 848.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Times Square, Tower 1",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Causeway Bay",
+        "area": "Hong Kong Island",
+        "tenant": "Vektoris Trust",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 2192.25,
+        "gfa": 2923.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Lippo Centre, Tower 2",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "Wellington Legal ",
+        "sector": "Legal",
+        "type": "New Letting",
+        "nfa": 1046.5,
+        "gfa": 1495.0
+      },
+      {
+        "date": "2026-05-31",
         "building": "Grand Century Place, Tower 2",
         "submarket": "Kowloon Others",
         "district": "Mong Kok",
@@ -143029,15 +142885,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-31",
-        "building": "Alexandra House",
-        "submarket": "Central",
-        "district": "Central non-A1",
+        "building": "Infinitus Plaza",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Sheung Wan",
         "area": "Hong Kong Island",
-        "tenant": "Pacific Aegis Capital Management",
-        "sector": "Banking and financial services",
+        "tenant": "TBC",
+        "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 4781.0,
-        "gfa": 4781.0
+        "nfa": 4648.64,
+        "gfa": 6368.0
       },
       {
         "date": "2026-05-31",
@@ -143053,126 +142909,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-31",
-        "building": "Two Pacific Place",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 5364.0,
-        "gfa": 5960.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Two Pacific Place",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 9178.2,
-        "gfa": 10198.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "South Island Place",
-        "submarket": "Wong Chuk Hang",
-        "district": "Wong Chuk Hang",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 6037.42,
-        "gfa": 7274.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Infinitus Plaza",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 4648.64,
-        "gfa": 6368.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Alexandra House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 5549.0,
-        "gfa": 5549.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Alexandra House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 2534.0,
-        "gfa": 2534.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Foyer (625 King's Road)",
-        "submarket": "Hong Kong East",
-        "district": "North Point",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 3244.0,
-        "gfa": 4055.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Alexandra House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3821.0,
-        "gfa": 3821.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Lippo Centre, Tower 2",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "Wellington Legal ",
-        "sector": "Legal",
-        "type": "New Letting",
-        "nfa": 1046.5,
-        "gfa": 1495.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Three Garden Road - ICBC Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2618.0,
-        "gfa": 3080.0
-      },
-      {
-        "date": "2026-05-31",
         "building": "Infinitus Plaza",
         "submarket": "Admiralty & Sheung Wan",
         "district": "Sheung Wan",
@@ -143182,90 +142918,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 8686.27,
         "gfa": 11899.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "AIRSIDE",
-        "submarket": "Kowloon East",
-        "district": "Kai Tak",
-        "area": "Kowloon",
-        "tenant": "AIA",
-        "sector": "Insurance",
-        "type": "New Letting",
-        "nfa": 14800.0,
-        "gfa": 20000.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Six Pacific Place",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 6876.0,
-        "gfa": 7640.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "OfficePlus @Prince Edward",
-        "submarket": "Mong Kok",
-        "district": "Kowloon Others",
-        "area": "Kowloon",
-        "tenant": "Kucoin",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 290.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Infinitus Plaza",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 3036.8,
-        "gfa": 4160.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "AIA Central",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 6552.9,
-        "gfa": 7281.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Laws Commercial Plaza",
-        "submarket": "Cheung Sha Wan",
-        "district": "Kowloon Others",
-        "area": "Kowloon",
-        "tenant": "Hornbach Asia",
-        "sector": "Import/export & logistics",
-        "type": "New Letting",
-        "nfa": 1415.4,
-        "gfa": 2022.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Foyer (625 King's Road)",
-        "submarket": "Hong Kong East",
-        "district": "North Point",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1612.8,
-        "gfa": 2016.0
       },
       {
         "date": "2026-05-31",
@@ -143285,47 +142937,11 @@ window.DASHBOARD_DATA = {
         "submarket": "Central",
         "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1059.95,
-        "gfa": 1247.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "AIRSIDE",
-        "submarket": "Kowloon East",
-        "district": "Kai Tak",
-        "area": "Kowloon",
-        "tenant": "AIA",
-        "sector": "Insurance",
-        "type": "New Letting",
-        "nfa": 7648.64,
-        "gfa": 10336.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Three Garden Road - Champion Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
         "tenant": "Fosun Asset Managment Ltd.",
         "sector": "Banking and financial services",
         "type": "New Letting",
         "nfa": 1618.4,
         "gfa": 1904.0
-      },
-      {
-        "date": "2026-05-31",
-        "building": "Three Garden Road - Champion Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 720.8,
-        "gfa": 848.0
       },
       {
         "date": "2026-05-31",
@@ -143341,15 +142957,99 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-31",
-        "building": "Times Square, Tower 1",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
+        "building": "Alexandra House",
+        "submarket": "Central",
+        "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "Vektoris Trust",
+        "tenant": "Pacific Aegis Capital Management",
         "sector": "Banking and financial services",
         "type": "New Letting",
-        "nfa": 2192.25,
-        "gfa": 2923.0
+        "nfa": 4781.0,
+        "gfa": 4781.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Two Pacific Place",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 5364.0,
+        "gfa": 5960.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "AIA Central",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 6552.9,
+        "gfa": 7281.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "AIRSIDE",
+        "submarket": "Kowloon East",
+        "district": "Kai Tak",
+        "area": "Kowloon",
+        "tenant": "AIA",
+        "sector": "Insurance",
+        "type": "New Letting",
+        "nfa": 14800.0,
+        "gfa": 20000.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Two Pacific Place",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 9178.2,
+        "gfa": 10198.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Foyer (625 King's Road)",
+        "submarket": "Hong Kong East",
+        "district": "North Point",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1612.8,
+        "gfa": 2016.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Foyer (625 King's Road)",
+        "submarket": "Hong Kong East",
+        "district": "North Point",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 3244.0,
+        "gfa": 4055.0
+      },
+      {
+        "date": "2026-05-31",
+        "building": "Three Garden Road - Champion Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1059.95,
+        "gfa": 1247.0
       },
       {
         "date": "2026-05-30",
@@ -143365,18 +143065,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-29",
-        "building": "Millennium City 1",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2644.2,
-        "gfa": 3390.0
-      },
-      {
-        "date": "2026-05-29",
         "building": "Kowloon Commerce Centre, Tower A",
         "submarket": "New Territories",
         "district": "Kwai Chung & Tsuen Wan",
@@ -143389,39 +143077,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-29",
-        "building": "Kowloon Commerce Centre, Tower A",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
+        "building": "Millennium City 1",
+        "submarket": "Kowloon East",
+        "district": "Kwun Tong",
+        "area": "Kowloon",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 4180.02,
-        "gfa": 5359.0
-      },
-      {
-        "date": "2026-05-29",
-        "building": "Kowloon Commerce Centre, Tower A",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 839.28,
-        "gfa": 1076.0
-      },
-      {
-        "date": "2026-05-29",
-        "building": "Two Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Oriental Patron Financial Group",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 2262.0,
-        "gfa": 2262.0
+        "nfa": 2644.2,
+        "gfa": 3390.0
       },
       {
         "date": "2026-05-29",
@@ -143437,15 +143101,27 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-29",
-        "building": "Grand Central Plaza, Tower 2",
+        "building": "Kowloon Commerce Centre, Tower A",
         "submarket": "New Territories",
-        "district": "Sha Tin",
+        "district": "Kwai Chung & Tsuen Wan",
         "area": "New Territories",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 10627.2,
-        "gfa": 13284.0
+        "nfa": 839.28,
+        "gfa": 1076.0
+      },
+      {
+        "date": "2026-05-29",
+        "building": "Millennium City 1",
+        "submarket": "Kowloon East",
+        "district": "Kwun Tong",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 3530.28,
+        "gfa": 4526.0
       },
       {
         "date": "2026-05-29",
@@ -143461,75 +143137,39 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-29",
-        "building": "Millennium City 1",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
+        "building": "Two Exchange Square",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Oriental Patron Financial Group",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 2262.0,
+        "gfa": 2262.0
+      },
+      {
+        "date": "2026-05-29",
+        "building": "Kowloon Commerce Centre, Tower A",
+        "submarket": "New Territories",
+        "district": "Kwai Chung & Tsuen Wan",
+        "area": "New Territories",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 3530.28,
-        "gfa": 4526.0
+        "nfa": 4180.02,
+        "gfa": 5359.0
       },
       {
-        "date": "2026-05-28",
-        "building": "The Octagon",
+        "date": "2026-05-29",
+        "building": "Grand Central Plaza, Tower 2",
         "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
+        "district": "Sha Tin",
         "area": "New Territories",
         "tenant": "TBC",
         "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 11285.74,
-        "gfa": 15251.0
-      },
-      {
-        "date": "2026-05-28",
-        "building": "The Octagon",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 11285.74,
-        "gfa": 15251.0
-      },
-      {
-        "date": "2026-05-28",
-        "building": "The Octagon",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 11285.74,
-        "gfa": 15251.0
-      },
-      {
-        "date": "2026-05-28",
-        "building": "The Octagon",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 11285.74,
-        "gfa": 15251.0
-      },
-      {
-        "date": "2026-05-28",
-        "building": "One Causeway Bay",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Mandarin Oriental Hotel Group Limited",
-        "sector": "Others",
-        "type": "Owner-occupied",
-        "nfa": 18783.6,
-        "gfa": 21345.0
+        "type": "New Letting",
+        "nfa": 10627.2,
+        "gfa": 13284.0
       },
       {
         "date": "2026-05-28",
@@ -143557,30 +143197,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-27",
-        "building": "The Bay hub",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 3194.1,
-        "gfa": 4914.0
-      },
-      {
-        "date": "2026-05-27",
-        "building": "Two Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2347.0,
-        "gfa": 2347.0
-      },
-      {
-        "date": "2026-05-27",
         "building": "Man Yee Building",
         "submarket": "Central",
         "district": "Central non-A1",
@@ -143590,66 +143206,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 4001.4,
         "gfa": 4446.0
-      },
-      {
-        "date": "2026-05-27",
-        "building": "Great Eagle Centre",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "Sino Ocean Group",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 10400.0,
-        "gfa": 13000.0
-      },
-      {
-        "date": "2026-05-27",
-        "building": "909 Cheung Sha Wan Road",
-        "submarket": "Kowloon Others",
-        "district": "Cheung Sha Wan",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1286.25,
-        "gfa": 1715.0
-      },
-      {
-        "date": "2026-05-27",
-        "building": "Metroplaza, Tower 1",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 872.82,
-        "gfa": 1119.0
-      },
-      {
-        "date": "2026-05-27",
-        "building": "Metroplaza, Tower 1",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1674.66,
-        "gfa": 2147.0
-      },
-      {
-        "date": "2026-05-27",
-        "building": "Lee Garden One",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Hysan Workplace by Regus",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 13066.2,
-        "gfa": 15372.0
       },
       {
         "date": "2026-05-27",
@@ -143665,15 +143221,27 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-27",
-        "building": "Port 33",
-        "submarket": "Kowloon Others",
-        "district": "San Po Kong",
+        "building": "The Bay hub",
+        "submarket": "Kowloon East",
+        "district": "Kowloon Bay",
         "area": "Kowloon",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 2021.25,
-        "gfa": 2695.0
+        "nfa": 3194.1,
+        "gfa": 4914.0
+      },
+      {
+        "date": "2026-05-27",
+        "building": "Great Eagle Centre",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "Sino Ocean Group",
+        "sector": "Real Estate & Construction",
+        "type": "New Letting",
+        "nfa": 10400.0,
+        "gfa": 13000.0
       },
       {
         "date": "2026-05-27",
@@ -143688,52 +143256,64 @@ window.DASHBOARD_DATA = {
         "gfa": 1623.0
       },
       {
-        "date": "2026-05-26",
-        "building": "China Merchants Plaza",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 4800.0,
-        "gfa": 6000.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "One Exchange Square",
+        "date": "2026-05-27",
+        "building": "Two Exchange Square",
         "submarket": "Central",
         "district": "Central non-A1",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 866.0,
-        "gfa": 866.0
+        "type": "New Letting",
+        "nfa": 2347.0,
+        "gfa": 2347.0
       },
       {
-        "date": "2026-05-26",
-        "building": "China Merchants Plaza",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
+        "date": "2026-05-27",
+        "building": "909 Cheung Sha Wan Road",
+        "submarket": "Kowloon Others",
+        "district": "Cheung Sha Wan",
+        "area": "Kowloon",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 6246.4,
-        "gfa": 7808.0
+        "nfa": 1286.25,
+        "gfa": 1715.0
+      },
+      {
+        "date": "2026-05-27",
+        "building": "Port 33",
+        "submarket": "Kowloon Others",
+        "district": "San Po Kong",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2021.25,
+        "gfa": 2695.0
+      },
+      {
+        "date": "2026-05-27",
+        "building": "Lee Garden One",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Causeway Bay",
+        "area": "Hong Kong Island",
+        "tenant": "Hysan Workplace by Regus",
+        "sector": "Real Estate & Construction",
+        "type": "New Letting",
+        "nfa": 13066.2,
+        "gfa": 15372.0
       },
       {
         "date": "2026-05-26",
-        "building": "Chater House",
+        "building": "Cheung Kong Center II",
         "submarket": "Central",
         "district": "Central A1",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "tenant": "Range Technology",
+        "sector": "IT and technology",
         "type": "New Letting",
-        "nfa": 7889.0,
-        "gfa": 7889.0
+        "nfa": 7171.36,
+        "gfa": 9436.0
       },
       {
         "date": "2026-05-26",
@@ -143749,111 +143329,27 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-26",
-        "building": "Marina 8",
-        "submarket": "Wong Chuk Hang",
-        "district": "Wong Chuk Hang",
-        "area": "Hong Kong Island",
-        "tenant": "Histosonics Inc",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 1689.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "Hopewell Centre",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
+        "building": "Chater House",
+        "submarket": "Central",
+        "district": "Central A1",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 10676.4,
-        "gfa": 15252.0
+        "nfa": 7889.0,
+        "gfa": 7889.0
       },
       {
         "date": "2026-05-26",
-        "building": "Lippo Centre, Tower 1",
+        "building": "China Merchants Plaza",
         "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "Bela Offices",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 10423.0,
-        "gfa": 14890.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "COFCO Tower",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1387.4,
-        "gfa": 1982.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "9 Queen's Road Central",
-        "submarket": "Central",
-        "district": "Central non-A1",
+        "district": "Sheung Wan",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 1723.4,
-        "gfa": 2462.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "Jardine House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 2050.0,
-        "gfa": 2050.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "Two Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "CSOP Asset Management Ltd.",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 1236.0,
-        "gfa": 1236.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "COFCO Tower",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1717.8,
-        "gfa": 2454.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "One Taikoo Place",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Prudential Hong Kong Limited",
-        "sector": "Insurance",
-        "type": "New Letting",
-        "nfa": 56670.48,
-        "gfa": 60936.0
+        "nfa": 6246.4,
+        "gfa": 7808.0
       },
       {
         "date": "2026-05-26",
@@ -143869,51 +143365,75 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-26",
-        "building": "COFCO Tower",
+        "building": "Hopewell Centre",
         "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
+        "district": "Wan Chai",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1166.2,
-        "gfa": 1666.0
+        "type": "New Letting",
+        "nfa": 10676.4,
+        "gfa": 15252.0
       },
       {
         "date": "2026-05-26",
-        "building": "One Exchange Square",
+        "building": "China Merchants Plaza",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Sheung Wan",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 4800.0,
+        "gfa": 6000.0
+      },
+      {
+        "date": "2026-05-26",
+        "building": "9 Queen's Road Central",
         "submarket": "Central",
         "district": "Central non-A1",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1323.0,
-        "gfa": 1323.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "COFCO Tower",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 4264.4,
-        "gfa": 6092.0
-      },
-      {
-        "date": "2026-05-26",
-        "building": "Cheung Kong Center II",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "Range Technology",
-        "sector": "IT and technology",
         "type": "New Letting",
-        "nfa": 7171.36,
-        "gfa": 9436.0
+        "nfa": 1723.4,
+        "gfa": 2462.0
+      },
+      {
+        "date": "2026-05-26",
+        "building": "Two Exchange Square",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "CSOP Asset Management Ltd.",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 1236.0,
+        "gfa": 1236.0
+      },
+      {
+        "date": "2026-05-26",
+        "building": "Lippo Centre, Tower 1",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "Bela Offices",
+        "sector": "Real Estate & Construction",
+        "type": "New Letting",
+        "nfa": 10423.0,
+        "gfa": 14890.0
+      },
+      {
+        "date": "2026-05-26",
+        "building": "One Taikoo Place",
+        "submarket": "Hong Kong East",
+        "district": "Quarry Bay",
+        "area": "Hong Kong Island",
+        "tenant": "Prudential Hong Kong Limited",
+        "sector": "Insurance",
+        "type": "New Letting",
+        "nfa": 56670.48,
+        "gfa": 60936.0
       },
       {
         "date": "2026-05-21",
@@ -143965,18 +143485,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-14",
-        "building": "Jardine House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Wanda Hotel Development Company Limited",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 617.0,
-        "gfa": 617.0
-      },
-      {
-        "date": "2026-05-14",
         "building": "K11 ATELIER King’s Road",
         "submarket": "Hong Kong East",
         "district": "North Point",
@@ -143988,16 +143496,16 @@ window.DASHBOARD_DATA = {
         "gfa": 1884.0
       },
       {
-        "date": "2026-05-13",
-        "building": "K11 ATELIER King’s Road",
-        "submarket": "Hong Kong East",
-        "district": "North Point",
+        "date": "2026-05-14",
+        "building": "Jardine House",
+        "submarket": "Central",
+        "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "tenant": "Wanda Hotel Development Company Limited",
+        "sector": "Others",
         "type": "New Letting",
-        "nfa": 1314.57,
-        "gfa": 1511.0
+        "nfa": 617.0,
+        "gfa": 617.0
       },
       {
         "date": "2026-05-13",
@@ -144024,16 +143532,16 @@ window.DASHBOARD_DATA = {
         "gfa": 2797.0
       },
       {
-        "date": "2026-05-12",
-        "building": "Times Square, Tower 1",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
+        "date": "2026-05-13",
+        "building": "K11 ATELIER King’s Road",
+        "submarket": "Hong Kong East",
+        "district": "North Point",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 1565.25,
-        "gfa": 2087.0
+        "nfa": 1314.57,
+        "gfa": 1511.0
       },
       {
         "date": "2026-05-12",
@@ -144046,6 +143554,18 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1575.0,
         "gfa": 2100.0
+      },
+      {
+        "date": "2026-05-12",
+        "building": "Times Square, Tower 1",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Causeway Bay",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1565.25,
+        "gfa": 2087.0
       },
       {
         "date": "2026-05-12",
@@ -144097,27 +143617,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-06",
-        "building": "Gloucester Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
+        "building": "One Island South",
+        "submarket": "Wong Chuk Hang",
+        "district": "Wong Chuk Hang",
         "area": "Hong Kong Island",
-        "tenant": "Kirkland & Ellis",
-        "sector": "Legal",
-        "type": "New Letting",
-        "nfa": 8000.0,
-        "gfa": 8000.0
-      },
-      {
-        "date": "2026-05-06",
-        "building": "100QRC",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Options Technology (Asia) Ltd",
+        "tenant": "Odoo",
         "sector": "IT and technology",
-        "type": "Cancelled",
-        "nfa": 2526.75,
-        "gfa": 3369.0
+        "type": "New Letting",
+        "nfa": 41875.6866,
+        "gfa": 53349.0
       },
       {
         "date": "2026-05-06",
@@ -144137,18 +143645,6 @@ window.DASHBOARD_DATA = {
         "submarket": "Kowloon Others",
         "district": "Cheung Sha Wan",
         "area": "Kowloon",
-        "tenant": "Giordano Limited",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 16080.75,
-        "gfa": 21441.0
-      },
-      {
-        "date": "2026-05-06",
-        "building": "83 King Lam Street",
-        "submarket": "Kowloon Others",
-        "district": "Cheung Sha Wan",
-        "area": "Kowloon",
         "tenant": "Italian Style Home Co Limited",
         "sector": "Real Estate & Construction",
         "type": "New Letting",
@@ -144157,15 +143653,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-06",
-        "building": "One Island South",
-        "submarket": "Wong Chuk Hang",
-        "district": "Wong Chuk Hang",
-        "area": "Hong Kong Island",
-        "tenant": "Odoo",
+        "building": "NEO",
+        "submarket": "Kowloon East",
+        "district": "Kwun Tong",
+        "area": "Kowloon",
+        "tenant": "Barracuda Networks",
         "sector": "IT and technology",
         "type": "New Letting",
-        "nfa": 41875.6866,
-        "gfa": 53349.0
+        "nfa": 7329.66,
+        "gfa": 9397.0
       },
       {
         "date": "2026-05-06",
@@ -144181,15 +143677,27 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-06",
-        "building": "NEO",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "Barracuda Networks",
-        "sector": "IT and technology",
+        "building": "Gloucester Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Kirkland & Ellis",
+        "sector": "Legal",
         "type": "New Letting",
-        "nfa": 7329.66,
-        "gfa": 9397.0
+        "nfa": 8000.0,
+        "gfa": 8000.0
+      },
+      {
+        "date": "2026-05-06",
+        "building": "83 King Lam Street",
+        "submarket": "Kowloon Others",
+        "district": "Cheung Sha Wan",
+        "area": "Kowloon",
+        "tenant": "Giordano Limited",
+        "sector": "Wholesale & retail trades",
+        "type": "New Letting",
+        "nfa": 16080.75,
+        "gfa": 21441.0
       },
       {
         "date": "2026-05-05",
@@ -144202,30 +143710,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 2271.75,
         "gfa": 3029.0
-      },
-      {
-        "date": "2026-05-05",
-        "building": "909 Cheung Sha Wan Road",
-        "submarket": "Kowloon Others",
-        "district": "Cheung Sha Wan",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2271.75,
-        "gfa": 3029.0
-      },
-      {
-        "date": "2026-05-05",
-        "building": "The Burrow",
-        "submarket": "Kowloon Others",
-        "district": "San Po Kong",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2817.75,
-        "gfa": 3757.0
       },
       {
         "date": "2026-05-05",
@@ -144245,18 +143729,6 @@ window.DASHBOARD_DATA = {
         "submarket": "Central",
         "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "Templewater Hong Kong",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 1625.0,
-        "gfa": 1625.0
-      },
-      {
-        "date": "2026-05-05",
-        "building": "Jardine House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
         "tenant": "Zhong Lun Law Firm LLP",
         "sector": "Legal",
         "type": "New Letting",
@@ -144265,15 +143737,39 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-05-05",
-        "building": "Lee Garden One",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
+        "building": "The Burrow",
+        "submarket": "Kowloon Others",
+        "district": "San Po Kong",
+        "area": "Kowloon",
         "tenant": "TBC",
         "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3126.3,
-        "gfa": 3678.0
+        "type": "New Letting",
+        "nfa": 2817.75,
+        "gfa": 3757.0
+      },
+      {
+        "date": "2026-05-05",
+        "building": "909 Cheung Sha Wan Road",
+        "submarket": "Kowloon Others",
+        "district": "Cheung Sha Wan",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2271.75,
+        "gfa": 3029.0
+      },
+      {
+        "date": "2026-05-05",
+        "building": "Jardine House",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Templewater Hong Kong",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 1625.0,
+        "gfa": 1625.0
       },
       {
         "date": "2026-05-04",
@@ -144289,18 +143785,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-30",
-        "building": "Lee Garden One",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3853.05,
-        "gfa": 4533.0
-      },
-      {
-        "date": "2026-04-30",
         "building": "Lee Garden Five",
         "submarket": "Wan Chai & Causeway Bay",
         "district": "Causeway Bay",
@@ -144313,18 +143797,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-30",
-        "building": "2 Hau Fook Street",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "Mugen International",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 1141.0
-      },
-      {
-        "date": "2026-04-30",
         "building": "CITIC Tower",
         "submarket": "Admiralty & Sheung Wan",
         "district": "Admiralty",
@@ -144334,42 +143806,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 2524.93,
         "gfa": 2837.0
-      },
-      {
-        "date": "2026-04-29",
-        "building": "100QRC",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Ganrise Management Co Ltd",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1272.0,
-        "gfa": 1696.0
-      },
-      {
-        "date": "2026-04-29",
-        "building": "Lee Garden One",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3403.4,
-        "gfa": 4004.0
-      },
-      {
-        "date": "2026-04-29",
-        "building": "100QRC",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Peaceshire Asset Management (Asia) Ltd",
-        "sector": "Banking and financial services",
-        "type": "Cancelled",
-        "nfa": 2527.5,
-        "gfa": 3370.0
       },
       {
         "date": "2026-04-29",
@@ -144397,6 +143833,18 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-28",
+        "building": "PCCW Tower",
+        "submarket": "Hong Kong East",
+        "district": "Quarry Bay",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2761.2,
+        "gfa": 3068.0
+      },
+      {
+        "date": "2026-04-28",
         "building": "Gloucester Tower",
         "submarket": "Central",
         "district": "Central non-A1",
@@ -144420,16 +143868,16 @@ window.DASHBOARD_DATA = {
         "gfa": 3165.0
       },
       {
-        "date": "2026-04-28",
-        "building": "PCCW Tower",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
+        "date": "2026-04-27",
+        "building": "COFCO Tower",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Causeway Bay",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 2761.2,
-        "gfa": 3068.0
+        "nfa": 4446.4,
+        "gfa": 6352.0
       },
       {
         "date": "2026-04-27",
@@ -144440,20 +143888,8 @@ window.DASHBOARD_DATA = {
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 1233.75,
-        "gfa": 1645.0
-      },
-      {
-        "date": "2026-04-27",
-        "building": "Landmark South",
-        "submarket": "Wong Chuk Hang",
-        "district": "Wong Chuk Hang",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1251.0,
-        "gfa": 1668.0
+        "nfa": 1497.0,
+        "gfa": 1996.0
       },
       {
         "date": "2026-04-27",
@@ -144476,8 +143912,20 @@ window.DASHBOARD_DATA = {
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 1497.0,
-        "gfa": 1996.0
+        "nfa": 1251.0,
+        "gfa": 1668.0
+      },
+      {
+        "date": "2026-04-27",
+        "building": "Landmark South",
+        "submarket": "Wong Chuk Hang",
+        "district": "Wong Chuk Hang",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1233.75,
+        "gfa": 1645.0
       },
       {
         "date": "2026-04-27",
@@ -144502,30 +143950,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 10584.8,
         "gfa": 13231.0
-      },
-      {
-        "date": "2026-04-27",
-        "building": "COFCO Tower",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 4446.4,
-        "gfa": 6352.0
-      },
-      {
-        "date": "2026-04-26",
-        "building": "Berkshire House",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Green Tomato",
-        "sector": "IT and technology",
-        "type": "New Letting",
-        "nfa": 10466.4,
-        "gfa": 13083.0
       },
       {
         "date": "2026-04-26",
@@ -144565,15 +143989,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-26",
-        "building": "Lee Garden Eight",
-        "submarket": "Causeway Bay",
-        "district": "Wan Chai And Causeway Bay",
+        "building": "Gloucester Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "IWG",
-        "sector": "Real Estate & Construction",
+        "tenant": "Campbells Law Firm",
+        "sector": "Legal",
         "type": "New Letting",
-        "nfa": null,
-        "gfa": null
+        "nfa": 1493.0,
+        "gfa": 1493.0
       },
       {
         "date": "2026-04-26",
@@ -144589,39 +144013,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-26",
-        "building": "Li Po Chun Chambers",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
+        "building": "Lee Garden Eight",
+        "submarket": "Causeway Bay",
+        "district": "Wan Chai And Causeway Bay",
         "area": "Hong Kong Island",
-        "tenant": "Nanyang Commercial Bank Ltd",
-        "sector": "Banking and financial services",
+        "tenant": "IWG",
+        "sector": "Real Estate & Construction",
         "type": "New Letting",
-        "nfa": 15663.64,
-        "gfa": 19102.0
-      },
-      {
-        "date": "2026-04-26",
-        "building": "Gloucester Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Campbells Law Firm",
-        "sector": "Legal",
-        "type": "New Letting",
-        "nfa": 1493.0,
-        "gfa": 1493.0
-      },
-      {
-        "date": "2026-04-26",
-        "building": "308 Central Des Voeux (FWD Financial Centre)",
-        "submarket": "Sheung Wan",
-        "district": "Admiralty And Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "Kensington Corporate Advisory Services Ltd",
-        "sector": "Other professional services",
-        "type": "New Letting",
-        "nfa": 5312.3,
-        "gfa": 7589.0
+        "nfa": null,
+        "gfa": null
       },
       {
         "date": "2026-04-26",
@@ -144634,6 +144034,54 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 4837.86,
         "gfa": 5202.0
+      },
+      {
+        "date": "2026-04-26",
+        "building": "Li Po Chun Chambers",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Sheung Wan",
+        "area": "Hong Kong Island",
+        "tenant": "Nanyang Commercial Bank Ltd",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 15663.64,
+        "gfa": 19102.0
+      },
+      {
+        "date": "2026-04-26",
+        "building": "Berkshire House",
+        "submarket": "Hong Kong East",
+        "district": "Quarry Bay",
+        "area": "Hong Kong Island",
+        "tenant": "Green Tomato",
+        "sector": "IT and technology",
+        "type": "New Letting",
+        "nfa": 10466.4,
+        "gfa": 13083.0
+      },
+      {
+        "date": "2026-04-24",
+        "building": "Cheung Kong Center II",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Migao Group",
+        "sector": "Others",
+        "type": "New Letting",
+        "nfa": 7752.76,
+        "gfa": 10201.0
+      },
+      {
+        "date": "2026-04-24",
+        "building": "Cheung Kong Center II",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Beijing Chao Xun Zhi Suan ",
+        "sector": "Others",
+        "type": "New Letting",
+        "nfa": 4003.68,
+        "gfa": 5268.0
       },
       {
         "date": "2026-04-24",
@@ -144653,8 +144101,8 @@ window.DASHBOARD_DATA = {
         "submarket": "Central",
         "district": "Central A1",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "tenant": "Pateo Technology International (Hongkong) Co., Ltd.",
+        "sector": "IT and technology",
         "type": "New Letting",
         "nfa": 2552.84,
         "gfa": 3359.0
@@ -144689,18 +144137,6 @@ window.DASHBOARD_DATA = {
         "submarket": "Central",
         "district": "Central A1",
         "area": "Hong Kong Island",
-        "tenant": "Migao Group",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 7752.76,
-        "gfa": 10201.0
-      },
-      {
-        "date": "2026-04-24",
-        "building": "Cheung Kong Center II",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
         "tenant": " Yun Tian ",
         "sector": "Others",
         "type": "New Letting",
@@ -144713,23 +144149,23 @@ window.DASHBOARD_DATA = {
         "submarket": "Central",
         "district": "Central A1",
         "area": "Hong Kong Island",
-        "tenant": "Pateo Technology International (Hongkong) Co., Ltd.",
-        "sector": "IT and technology",
+        "tenant": "TBC",
+        "sector": "Unknown",
         "type": "New Letting",
         "nfa": 2552.84,
         "gfa": 3359.0
       },
       {
-        "date": "2026-04-24",
-        "building": "Cheung Kong Center II",
+        "date": "2026-04-23",
+        "building": "Nexxus Building",
         "submarket": "Central",
-        "district": "Central A1",
+        "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "Beijing Chao Xun Zhi Suan ",
-        "sector": "Others",
+        "tenant": "Anchorpoint Financial Limited",
+        "sector": "Banking and financial services",
         "type": "New Letting",
-        "nfa": 4003.68,
-        "gfa": 5268.0
+        "nfa": 1727.72,
+        "gfa": 1838.0
       },
       {
         "date": "2026-04-23",
@@ -144749,59 +144185,11 @@ window.DASHBOARD_DATA = {
         "submarket": "Tsim Sha Tsui East",
         "district": "Tsim Sha Tsui East",
         "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1146.75,
-        "gfa": 1529.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Exchange Tower",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "tenant": "HongKong New Channel International Education Co Ltd",
+        "sector": "Others",
         "type": "New Letting",
-        "nfa": 963.75,
-        "gfa": 1285.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Central Plaza",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1366.8,
-        "gfa": 1608.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Nexxus Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Anchorpoint Financial Limited",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 1727.72,
-        "gfa": 1838.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Central Plaza",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 671.5,
-        "gfa": 790.0
+        "nfa": 3207.0,
+        "gfa": 4276.0
       },
       {
         "date": "2026-04-23",
@@ -144824,80 +144212,20 @@ window.DASHBOARD_DATA = {
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
+        "nfa": 963.75,
+        "gfa": 1285.0
+      },
+      {
+        "date": "2026-04-23",
+        "building": "Exchange Tower",
+        "submarket": "Kowloon East",
+        "district": "Kowloon Bay",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
         "nfa": 961.5,
         "gfa": 1282.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "9 Wing Hong Street",
-        "submarket": "Cheung Sha Wan",
-        "district": "Kowloon Others",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 7410.2,
-        "gfa": 10586.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Tsim Sha Tsui Centre, East Wing",
-        "submarket": "Tsim Sha Tsui East",
-        "district": "Tsim Sha Tsui East",
-        "area": "Kowloon",
-        "tenant": "HongKong New Channel International Education Co Ltd",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 3207.0,
-        "gfa": 4276.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "South Seas Centre, Tower 1",
-        "submarket": "Tsim Sha Tsui East",
-        "district": "Tsim Sha Tsui East",
-        "area": "Kowloon",
-        "tenant": "Hong Kong New Oriental Vision Overseas Limited",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 8000.0,
-        "gfa": 10000.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Central Plaza",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1019.15,
-        "gfa": 1199.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Tsim Sha Tsui Centre, East Wing",
-        "submarket": "Tsim Sha Tsui East",
-        "district": "Tsim Sha Tsui East",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 768.75,
-        "gfa": 1025.0
-      },
-      {
-        "date": "2026-04-23",
-        "building": "Tsim Sha Tsui Centre, East Wing",
-        "submarket": "Tsim Sha Tsui East",
-        "district": "Tsim Sha Tsui East",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1665.75,
-        "gfa": 2221.0
       },
       {
         "date": "2026-04-23",
@@ -144912,16 +144240,16 @@ window.DASHBOARD_DATA = {
         "gfa": 19667.0
       },
       {
-        "date": "2026-04-21",
-        "building": "Leighton Centre",
-        "submarket": "Causeway Bay",
-        "district": "Wan Chai And Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Capital International",
-        "sector": "Banking and financial services",
+        "date": "2026-04-23",
+        "building": "South Seas Centre, Tower 1",
+        "submarket": "Tsim Sha Tsui East",
+        "district": "Tsim Sha Tsui East",
+        "area": "Kowloon",
+        "tenant": "Hong Kong New Oriental Vision Overseas Limited",
+        "sector": "Others",
         "type": "New Letting",
-        "nfa": 7856.55,
-        "gfa": 9243.0
+        "nfa": 8000.0,
+        "gfa": 10000.0
       },
       {
         "date": "2026-04-21",
@@ -144937,27 +144265,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-20",
-        "building": "International Commerce Centre",
-        "submarket": "Tsim Sha Tsui West",
-        "district": "Tsim Sha Tsui West",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "building": "Cheung Kong Center II",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Mashreq Bank",
+        "sector": "Banking and financial services",
         "type": "New Letting",
-        "nfa": 3370.38,
-        "gfa": 4321.0
-      },
-      {
-        "date": "2026-04-20",
-        "building": "Manulife Financial Centre - Tower B",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "Asian Tigers Group",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 2830.57,
-        "gfa": 3583.0
+        "nfa": 5941.68,
+        "gfa": 7818.0
       },
       {
         "date": "2026-04-20",
@@ -144985,18 +144301,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-20",
-        "building": "International Commerce Centre",
-        "submarket": "Tsim Sha Tsui West",
-        "district": "Tsim Sha Tsui West",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 3803.28,
-        "gfa": 4876.0
-      },
-      {
-        "date": "2026-04-20",
         "building": "Cheung Kong Center II",
         "submarket": "Central",
         "district": "Central A1",
@@ -145009,27 +144313,39 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-20",
-        "building": "Cheung Kong Center II",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "Mashreq Bank",
-        "sector": "Banking and financial services",
+        "building": "Manulife Financial Centre - Tower B",
+        "submarket": "Kowloon East",
+        "district": "Kwun Tong",
+        "area": "Kowloon",
+        "tenant": "Asian Tigers Group",
+        "sector": "Others",
         "type": "New Letting",
-        "nfa": 5941.68,
-        "gfa": 7818.0
+        "nfa": 2830.57,
+        "gfa": 3583.0
       },
       {
-        "date": "2026-04-14",
-        "building": "The Gateway, Tower 2",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
+        "date": "2026-04-20",
+        "building": "International Commerce Centre",
+        "submarket": "Tsim Sha Tsui West",
+        "district": "Tsim Sha Tsui West",
         "area": "Kowloon",
-        "tenant": "Fantastic Natural Cosmetics Ltd",
-        "sector": "Wholesale & retail trades",
+        "tenant": "TBC",
+        "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 6550.4,
-        "gfa": 8188.0
+        "nfa": 3803.28,
+        "gfa": 4876.0
+      },
+      {
+        "date": "2026-04-20",
+        "building": "International Commerce Centre",
+        "submarket": "Tsim Sha Tsui West",
+        "district": "Tsim Sha Tsui West",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 3370.38,
+        "gfa": 4321.0
       },
       {
         "date": "2026-04-14",
@@ -145044,40 +144360,16 @@ window.DASHBOARD_DATA = {
         "gfa": 2001.0
       },
       {
-        "date": "2026-04-01",
-        "building": "China Resources Building",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "China National Gold Group",
-        "sector": "Others",
+        "date": "2026-04-14",
+        "building": "The Gateway, Tower 2",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "Fantastic Natural Cosmetics Ltd",
+        "sector": "Wholesale & retail trades",
         "type": "New Letting",
-        "nfa": 1142.4,
-        "gfa": 1344.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Three Garden Road - Champion Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "The Law Reform Commission of Hong Kong",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 12176.25,
-        "gfa": 14325.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Central Plaza",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "Pacific Minerals Limited",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 1806.25,
-        "gfa": 2125.0
+        "nfa": 6550.4,
+        "gfa": 8188.0
       },
       {
         "date": "2026-04-01",
@@ -145097,59 +144389,11 @@ window.DASHBOARD_DATA = {
         "submarket": "Wan Chai & Causeway Bay",
         "district": "Wan Chai",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 979.2,
-        "gfa": 1152.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Jardine House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Kucoin Asset Management",
-        "sector": "Banking and financial services",
+        "tenant": "Pacific Minerals Limited",
+        "sector": "Others",
         "type": "New Letting",
-        "nfa": 1852.0,
-        "gfa": 1852.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "The Rays",
-        "submarket": "Kwun Tong",
-        "district": "Kowloon East",
-        "area": "Kowloon",
-        "tenant": "Cato Overseas Ltd",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 7285.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Three Pacific Place",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "Bank of Montreal",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 3417.3,
-        "gfa": 3797.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "The Centrium",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Dash Property Synergies",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 2048.2,
-        "gfa": 2926.0
+        "nfa": 1806.25,
+        "gfa": 2125.0
       },
       {
         "date": "2026-04-01",
@@ -145165,63 +144409,27 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-01",
-        "building": "Cheung Kong Center II",
+        "building": "The Centrium",
         "submarket": "Central",
-        "district": "Central A1",
+        "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "Sohar International Bank",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 2552.84,
-        "gfa": 3359.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Tai Yau Building",
-        "submarket": "Wan Chai",
-        "district": "Wan Chai And Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "NVD Asia Logistics and Luina Sailing Lines",
-        "sector": "Import/export & logistics",
-        "type": "New Letting",
-        "nfa": 1784.25,
-        "gfa": 2379.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Far East Finance Centre",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "Jiuzhou Star Holdings",
+        "tenant": "Dash Property Synergies",
         "sector": "Real Estate & Construction",
         "type": "New Letting",
-        "nfa": 2169.3,
-        "gfa": 3099.0
+        "nfa": 2048.2,
+        "gfa": 2926.0
       },
       {
         "date": "2026-04-01",
-        "building": "228 Electric Road",
-        "submarket": "Wan Chai",
-        "district": "Wan Chai And Causeway Bay",
+        "building": "Three Garden Road - Champion Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "Asia Sports Development",
+        "tenant": "The Law Reform Commission of Hong Kong",
         "sector": "Others",
         "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 4307.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Dorset House",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Bolttech Insurance",
-        "sector": "Insurance",
-        "type": "New Letting",
-        "nfa": 6717.6,
-        "gfa": 7464.0
+        "nfa": 12176.25,
+        "gfa": 14325.0
       },
       {
         "date": "2026-04-01",
@@ -145237,99 +144445,75 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-04-01",
-        "building": "1063 King's Road",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Owner-occupied",
-        "nfa": 9316.58,
-        "gfa": 10238.0
-      },
-      {
-        "date": "2026-04-01",
-        "building": "Central Plaza",
+        "building": "Three Pacific Place",
         "submarket": "Wan Chai & Causeway Bay",
         "district": "Wan Chai",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3965.25,
-        "gfa": 4665.0
+        "tenant": "Bank of Montreal",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 3417.3,
+        "gfa": 3797.0
       },
       {
-        "date": "2026-03-31",
+        "date": "2026-04-01",
+        "building": "Jardine House",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Kucoin Asset Management",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 1852.0,
+        "gfa": 1852.0
+      },
+      {
+        "date": "2026-04-01",
+        "building": "Dorset House",
+        "submarket": "Hong Kong East",
+        "district": "Quarry Bay",
+        "area": "Hong Kong Island",
+        "tenant": "Bolttech Insurance",
+        "sector": "Insurance",
+        "type": "New Letting",
+        "nfa": 6717.6,
+        "gfa": 7464.0
+      },
+      {
+        "date": "2026-04-01",
         "building": "Cheung Kong Center II",
         "submarket": "Central",
         "district": "Central A1",
         "area": "Hong Kong Island",
-        "tenant": "Pearl Trust",
+        "tenant": "Sohar International Bank",
         "sector": "Banking and financial services",
         "type": "New Letting",
         "nfa": 2552.84,
         "gfa": 3359.0
       },
       {
-        "date": "2026-03-31",
-        "building": "Golden Centre",
-        "submarket": "Sheung Wan",
-        "district": "Admiralty And Sheung Wan",
+        "date": "2026-04-01",
+        "building": "China Resources Building",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
         "area": "Hong Kong Island",
-        "tenant": "Forthright Financial Holdings",
-        "sector": "Banking and financial services",
+        "tenant": "China National Gold Group",
+        "sector": "Others",
         "type": "New Letting",
-        "nfa": 3769.5,
-        "gfa": 5385.0
+        "nfa": 1142.4,
+        "gfa": 1344.0
       },
       {
-        "date": "2026-03-31",
-        "building": "Pioneer Place",
-        "submarket": "Kwun Tong",
-        "district": "Kowloon East",
-        "area": "Kowloon",
-        "tenant": "YOHO Hong Kong",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 6931.6,
-        "gfa": 10664.0
-      },
-      {
-        "date": "2026-03-31",
-        "building": "Cambridge House",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
+        "date": "2026-04-01",
+        "building": "Far East Finance Centre",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "tenant": "Jiuzhou Star Holdings",
+        "sector": "Real Estate & Construction",
         "type": "New Letting",
-        "nfa": 6225.12,
-        "gfa": 7074.0
-      },
-      {
-        "date": "2026-03-31",
-        "building": "China Hong Kong City, Tower 1",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "Shengyuan Global Wealth Management",
-        "sector": "Insurance",
-        "type": "New Letting",
-        "nfa": 279.0,
-        "gfa": 372.0
-      },
-      {
-        "date": "2026-03-31",
-        "building": "Kai Tak Commercial Building",
-        "submarket": "Sheung Wan",
-        "district": "Admiralty And Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "Unity Credit",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 363.0
+        "nfa": 2169.3,
+        "gfa": 3099.0
       },
       {
         "date": "2026-03-31",
@@ -145345,15 +144529,51 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-03-31",
-        "building": "Two Chinachem Plaza",
-        "submarket": "Central Non A1",
-        "district": "Central",
+        "building": "Cambridge House",
+        "submarket": "Hong Kong East",
+        "district": "Quarry Bay",
         "area": "Hong Kong Island",
-        "tenant": "Lanton Principal",
+        "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 1392.0
+        "nfa": 6225.12,
+        "gfa": 7074.0
+      },
+      {
+        "date": "2026-03-31",
+        "building": "Wheelock House",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "XY Capital",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 2058.0,
+        "gfa": 2744.0
+      },
+      {
+        "date": "2026-03-31",
+        "building": "Cheung Kong Center II",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Pearl Trust",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 2552.84,
+        "gfa": 3359.0
+      },
+      {
+        "date": "2026-03-31",
+        "building": "China Hong Kong City, Tower 1",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "Shengyuan Global Wealth Management",
+        "sector": "Insurance",
+        "type": "New Letting",
+        "nfa": 279.0,
+        "gfa": 372.0
       },
       {
         "date": "2026-03-31",
@@ -145380,42 +144600,6 @@ window.DASHBOARD_DATA = {
         "gfa": 2553.0
       },
       {
-        "date": "2026-03-31",
-        "building": "CEO Tower",
-        "submarket": "Cheung Sha Wan",
-        "district": "Kowloon Others",
-        "area": "Kowloon",
-        "tenant": "Burst Color",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 6973.0
-      },
-      {
-        "date": "2026-03-31",
-        "building": "Wheelock House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "XY Capital",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 2058.0,
-        "gfa": 2744.0
-      },
-      {
-        "date": "2026-03-30",
-        "building": "D2 Place Two",
-        "submarket": "Cheung Sha Wan",
-        "district": "Kowloon Others",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 4767.0,
-        "gfa": 6356.0
-      },
-      {
         "date": "2026-03-26",
         "building": "The Gateway, Tower 2",
         "submarket": "Tsim Sha Tsui",
@@ -145426,138 +144610,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 2590.4,
         "gfa": 3238.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "The Gateway, Tower 6",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2891.25,
-        "gfa": 3855.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "Kowloon Commerce Centre, Tower B",
-        "submarket": "New Territories",
-        "district": "Kwai Chung & Tsuen Wan",
-        "area": "New Territories",
-        "tenant": "Techtronic Industries Company Limited",
-        "sector": "Manufacturing",
-        "type": "New Letting",
-        "nfa": 9575.25,
-        "gfa": 12767.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "Two Pacific Place",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "Gianni & Origoni in Association with SM & Co",
-        "sector": "Legal",
-        "type": "New Letting",
-        "nfa": 4050.0,
-        "gfa": 4500.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "Prince's Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Dr. Ng Wing Ho",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": null,
-        "gfa": null
-      },
-      {
-        "date": "2026-03-26",
-        "building": "633 King's road",
-        "submarket": "Hong Kong East",
-        "district": "North Point",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 3761.25,
-        "gfa": 5015.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "Edinburgh Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "JT Sky Ltd",
-        "sector": "Import/export & logistics",
-        "type": "New Letting",
-        "nfa": 3425.0,
-        "gfa": 3425.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "Kingston International Centre",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 8585.6,
-        "gfa": 10732.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "321 Java Road",
-        "submarket": "North Point",
-        "district": "Hong Kong East",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 17680.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "The Gateway, Tower 2",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1075.2,
-        "gfa": 1344.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "Causeway Bay Plaza 1",
-        "submarket": "Causeway Bay",
-        "district": "Wan Chai And Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Kindness Corporation Co Ltd",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 3179.0
-      },
-      {
-        "date": "2026-03-26",
-        "building": "9 Queen's Road Central",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Compass Offices",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 9603.3,
-        "gfa": 13719.0
       },
       {
         "date": "2026-03-26",
@@ -145573,6 +144625,66 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-03-26",
+        "building": "Kingston International Centre",
+        "submarket": "Kowloon East",
+        "district": "Kowloon Bay",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 8585.6,
+        "gfa": 10732.0
+      },
+      {
+        "date": "2026-03-26",
+        "building": "Kowloon Commerce Centre, Tower B",
+        "submarket": "New Territories",
+        "district": "Kwai Chung & Tsuen Wan",
+        "area": "New Territories",
+        "tenant": "Techtronic Industries Company Limited",
+        "sector": "Manufacturing",
+        "type": "New Letting",
+        "nfa": 9575.25,
+        "gfa": 12767.0
+      },
+      {
+        "date": "2026-03-26",
+        "building": "The Gateway, Tower 2",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1075.2,
+        "gfa": 1344.0
+      },
+      {
+        "date": "2026-03-26",
+        "building": "Edinburgh Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "JT Sky Ltd",
+        "sector": "Import/export & logistics",
+        "type": "New Letting",
+        "nfa": 3425.0,
+        "gfa": 3425.0
+      },
+      {
+        "date": "2026-03-26",
+        "building": "633 King's road",
+        "submarket": "Hong Kong East",
+        "district": "North Point",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 3761.25,
+        "gfa": 5015.0
+      },
+      {
+        "date": "2026-03-26",
         "building": "The Center",
         "submarket": "Admiralty & Sheung Wan",
         "district": "Sheung Wan",
@@ -145582,6 +144694,18 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1691.16,
         "gfa": 2487.0
+      },
+      {
+        "date": "2026-03-26",
+        "building": "Prince's Building",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Dr. Ng Wing Ho",
+        "sector": "Others",
+        "type": "New Letting",
+        "nfa": null,
+        "gfa": null
       },
       {
         "date": "2026-03-26",
@@ -145596,6 +144720,42 @@ window.DASHBOARD_DATA = {
         "gfa": 5541.0
       },
       {
+        "date": "2026-03-26",
+        "building": "9 Queen's Road Central",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Compass Offices",
+        "sector": "Real Estate & Construction",
+        "type": "New Letting",
+        "nfa": 9603.3,
+        "gfa": 13719.0
+      },
+      {
+        "date": "2026-03-26",
+        "building": "Two Pacific Place",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "Gianni & Origoni in Association with SM & Co",
+        "sector": "Legal",
+        "type": "New Letting",
+        "nfa": 4050.0,
+        "gfa": 4500.0
+      },
+      {
+        "date": "2026-03-26",
+        "building": "The Gateway, Tower 6",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2891.25,
+        "gfa": 3855.0
+      },
+      {
         "date": "2026-03-25",
         "building": "The Gateway, Tower 2",
         "submarket": "Tsim Sha Tsui",
@@ -145606,18 +144766,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 12412.8,
         "gfa": 15516.0
-      },
-      {
-        "date": "2026-03-25",
-        "building": "Dina House",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Garage Society",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 8971.2,
-        "gfa": 12816.0
       },
       {
         "date": "2026-03-25",
@@ -145681,15 +144829,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-03-16",
-        "building": "Lippo Sun Plaza",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
+        "building": "China Resources Building",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 855.56,
-        "gfa": 1172.0
+        "nfa": 4887.5,
+        "gfa": 5750.0
       },
       {
         "date": "2026-03-16",
@@ -145717,15 +144865,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-03-16",
-        "building": "China Resources Building",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
+        "building": "Lippo Sun Plaza",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 4887.5,
-        "gfa": 5750.0
+        "nfa": 855.56,
+        "gfa": 1172.0
       },
       {
         "date": "2026-03-13",
@@ -145738,30 +144886,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 187500.0,
         "gfa": 250000.0
-      },
-      {
-        "date": "2026-03-13",
-        "building": "Millennium City 1",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 788.58,
-        "gfa": 1011.0
-      },
-      {
-        "date": "2026-03-12",
-        "building": "K11 Atelier",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2266.5,
-        "gfa": 3022.0
       },
       {
         "date": "2026-03-12",
@@ -145786,6 +144910,18 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1990.88,
         "gfa": 2164.0
+      },
+      {
+        "date": "2026-03-12",
+        "building": "K11 Atelier",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2266.5,
+        "gfa": 3022.0
       },
       {
         "date": "2026-03-11",
@@ -145825,27 +144961,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-03-10",
-        "building": "181 Queen's Road Central",
+        "building": "CITIC Tower",
         "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
+        "district": "Admiralty",
         "area": "Hong Kong Island",
-        "tenant": "Guotai Junan International Holdings Limited",
-        "sector": "Banking and financial services",
-        "type": "Cancelled",
-        "nfa": 10815.7,
-        "gfa": 15451.0
-      },
-      {
-        "date": "2026-03-10",
-        "building": "Times Square, Tower 1",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Harriman store room",
-        "sector": "Real Estate & Construction",
-        "type": "Owner-occupied",
-        "nfa": 14616.0,
-        "gfa": 19488.0
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 5313.3,
+        "gfa": 5970.0
       },
       {
         "date": "2026-03-10",
@@ -145860,30 +144984,6 @@ window.DASHBOARD_DATA = {
         "gfa": 8125.0
       },
       {
-        "date": "2026-03-10",
-        "building": "CITIC Tower",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 5313.3,
-        "gfa": 5970.0
-      },
-      {
-        "date": "2026-03-10",
-        "building": "181 Queen's Road Central",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "Guotai Junan International Holdings Limited",
-        "sector": "Banking and financial services",
-        "type": "Cancelled",
-        "nfa": 10815.7,
-        "gfa": 15451.0
-      },
-      {
         "date": "2026-03-09",
         "building": "The Center",
         "submarket": "Admiralty & Sheung Wan",
@@ -145892,20 +144992,8 @@ window.DASHBOARD_DATA = {
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 1305.6,
-        "gfa": 1920.0
-      },
-      {
-        "date": "2026-03-09",
-        "building": "The Center",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 4491.4,
-        "gfa": 6605.0
+        "nfa": 1187.28,
+        "gfa": 1746.0
       },
       {
         "date": "2026-03-09",
@@ -145928,8 +145016,8 @@ window.DASHBOARD_DATA = {
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 1691.16,
-        "gfa": 2487.0
+        "nfa": 4491.4,
+        "gfa": 6605.0
       },
       {
         "date": "2026-03-09",
@@ -145942,6 +145030,18 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1691.16,
         "gfa": 2487.0
+      },
+      {
+        "date": "2026-03-09",
+        "building": "The Center",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Sheung Wan",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1305.6,
+        "gfa": 1920.0
       },
       {
         "date": "2026-03-09",
@@ -145964,8 +145064,8 @@ window.DASHBOARD_DATA = {
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 1187.28,
-        "gfa": 1746.0
+        "nfa": 1691.16,
+        "gfa": 2487.0
       },
       {
         "date": "2026-03-05",
@@ -145981,18 +145081,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-03-05",
-        "building": "Two Sky Parc (Paul Y Centre)",
-        "submarket": "Kwun Tong",
-        "district": "Kowloon East",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1744.5,
-        "gfa": 2326.0
-      },
-      {
-        "date": "2026-03-05",
         "building": "The Henderson",
         "submarket": "Central",
         "district": "Central A1",
@@ -146002,18 +145090,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 14186.22,
         "gfa": 15254.0
-      },
-      {
-        "date": "2026-03-05",
-        "building": "Millennium City 5",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 737.1,
-        "gfa": 945.0
       },
       {
         "date": "2026-03-05",
@@ -146041,18 +145117,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-03-03",
-        "building": "Cheung Kong Center II",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2552.84,
-        "gfa": 3359.0
-      },
-      {
-        "date": "2026-03-03",
         "building": "Times Square, Tower 1",
         "submarket": "Wan Chai & Causeway Bay",
         "district": "Causeway Bay",
@@ -146076,6 +145140,18 @@ window.DASHBOARD_DATA = {
         "gfa": 5268.0
       },
       {
+        "date": "2026-03-03",
+        "building": "Cheung Kong Center II",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2552.84,
+        "gfa": 3359.0
+      },
+      {
         "date": "2026-03-02",
         "building": "China Hong Kong City, Tower 2",
         "submarket": "Tsim Sha Tsui",
@@ -146086,18 +145162,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1217.25,
         "gfa": 1623.0
-      },
-      {
-        "date": "2026-03-01",
-        "building": "Viva Place",
-        "submarket": "Wong Chuk Hang",
-        "district": "Wong Chuk Hang",
-        "area": "Hong Kong Island",
-        "tenant": "Dah Sing Financial Group",
-        "sector": "Banking and financial services",
-        "type": "Owner-occupied",
-        "nfa": 96900.3,
-        "gfa": 119630.0
       },
       {
         "date": "2026-02-28",
@@ -146125,18 +145189,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-02-27",
-        "building": "International Commerce Centre",
-        "submarket": "Tsim Sha Tsui West",
-        "district": "Tsim Sha Tsui West",
-        "area": "Kowloon",
-        "tenant": "Gold Mountains (HK) International Mining Co Limited",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 2684.76,
-        "gfa": 3442.0
-      },
-      {
-        "date": "2026-02-27",
         "building": "181 Queen's Road Central",
         "submarket": "Admiralty & Sheung Wan",
         "district": "Sheung Wan",
@@ -146149,15 +145201,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-02-27",
-        "building": "181 Queen's Road Central",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 6741.7,
-        "gfa": 9631.0
+        "building": "International Commerce Centre",
+        "submarket": "Tsim Sha Tsui West",
+        "district": "Tsim Sha Tsui West",
+        "area": "Kowloon",
+        "tenant": "Gold Mountains (HK) International Mining Co Limited",
+        "sector": "Others",
+        "type": "New Letting",
+        "nfa": 2684.76,
+        "gfa": 3442.0
       },
       {
         "date": "2026-02-26",
@@ -146170,6 +145222,66 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 5272.17,
         "gfa": 5669.0
+      },
+      {
+        "date": "2026-02-26",
+        "building": "Central Plaza",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "China Chengtong Development Group Ltd",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 4698.8,
+        "gfa": 5528.0
+      },
+      {
+        "date": "2026-02-26",
+        "building": "One Pacific Place",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "Royal Bank of Canada",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 1577.7,
+        "gfa": 1753.0
+      },
+      {
+        "date": "2026-02-26",
+        "building": "Millennium City 5",
+        "submarket": "Kowloon East",
+        "district": "Kwun Tong",
+        "area": "Kowloon",
+        "tenant": "Sainsbury's Argos Asia Limited",
+        "sector": "Wholesale & retail trades",
+        "type": "New Letting",
+        "nfa": 7017.66,
+        "gfa": 8997.0
+      },
+      {
+        "date": "2026-02-26",
+        "building": "China Hong Kong City, Tower 6",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1408.5,
+        "gfa": 1878.0
+      },
+      {
+        "date": "2026-02-26",
+        "building": "The Cendas",
+        "submarket": "Kowloon East",
+        "district": "Kowloon Bay",
+        "area": "Kowloon",
+        "tenant": "TBC (Medical Instruments)",
+        "sector": "Others",
+        "type": "New Letting",
+        "nfa": 2970.6294,
+        "gfa": 4256.0
       },
       {
         "date": "2026-02-26",
@@ -146197,6 +145309,18 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-02-26",
+        "building": "Bank of America Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1498.5,
+        "gfa": 1998.0
+      },
+      {
+        "date": "2026-02-26",
         "building": "CITIC Tower",
         "submarket": "Admiralty & Sheung Wan",
         "district": "Admiralty",
@@ -146209,78 +145333,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-02-26",
-        "building": "83 King Lam Street",
-        "submarket": "Kowloon Others",
-        "district": "Cheung Sha Wan",
-        "area": "Kowloon",
-        "tenant": "New World Development Co Ltd",
-        "sector": "Real Estate & Construction",
-        "type": "Owner-occupied",
-        "nfa": 27498.0,
-        "gfa": 36664.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "Millennium City 5",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "Sainsbury's Argos Asia Limited",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 7017.66,
-        "gfa": 8997.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "Causeway Bay Plaza 1",
-        "submarket": "Causeway Bay",
-        "district": "Wan Chai And Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Onestart Group Ltd",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 1096.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "Yip Fung Centre",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Yeung Sau Yung",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 630.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "The Cendas",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "TBC (Medical Instruments)",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 2970.6294,
-        "gfa": 4256.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "Central Plaza",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "China Chengtong Development Group Ltd",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 4698.8,
-        "gfa": 5528.0
-      },
-      {
-        "date": "2026-02-26",
         "building": "Man Yee Building",
         "submarket": "Central",
         "district": "Central non-A1",
@@ -146290,90 +145342,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 2189.7,
         "gfa": 2433.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "Chinachem Tower",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Ceo Suite Central 1 Ltd",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 12870.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "New World Tower One",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Yeh Capital International Ltd",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 2181.0,
-        "gfa": 2908.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "8 Lyndhurst Terrace",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Tse Wing Hong & Sham Yee Ling",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 1546.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "The Wellington",
-        "submarket": "Sheung Wan",
-        "district": "Admiralty And Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "W11 Ltd",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 2697.75,
-        "gfa": 3597.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "One Pacific Place",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "Royal Bank of Canada",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 1577.7,
-        "gfa": 1753.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "China Hong Kong City, Tower 6",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1408.5,
-        "gfa": 1878.0
-      },
-      {
-        "date": "2026-02-26",
-        "building": "Bank of America Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1498.5,
-        "gfa": 1998.0
       },
       {
         "date": "2026-02-25",
@@ -146419,30 +145387,6 @@ window.DASHBOARD_DATA = {
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
-        "type": "Owner-occupied",
-        "nfa": 1060.5,
-        "gfa": 1515.0
-      },
-      {
-        "date": "2026-02-23",
-        "building": "Lippo Centre, Tower 1",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 7296.1,
-        "gfa": 10423.0
-      },
-      {
-        "date": "2026-02-23",
-        "building": "Lippo Centre, Tower 1",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
         "type": "New Letting",
         "nfa": 924.0,
         "gfa": 1320.0
@@ -146461,30 +145405,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-02-20",
-        "building": "Ocean Centre",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 538.5,
-        "gfa": 718.0
-      },
-      {
-        "date": "2026-02-20",
-        "building": "Ocean Centre",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 1145.25,
-        "gfa": 1527.0
-      },
-      {
-        "date": "2026-02-20",
         "building": "World Finance Centre, North Tower",
         "submarket": "Tsim Sha Tsui",
         "district": "Tsim Sha Tsui",
@@ -146494,30 +145414,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 4305.6,
         "gfa": 5382.0
-      },
-      {
-        "date": "2026-02-20",
-        "building": "Ocean Centre",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 552.0,
-        "gfa": 736.0
-      },
-      {
-        "date": "2026-02-20",
-        "building": "Ocean Centre",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 558.0,
-        "gfa": 744.0
       },
       {
         "date": "2026-02-11",
@@ -146568,102 +145464,6 @@ window.DASHBOARD_DATA = {
         "gfa": 739.0
       },
       {
-        "date": "2026-02-05",
-        "building": "One Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 4977.0,
-        "gfa": 4977.0
-      },
-      {
-        "date": "2026-02-05",
-        "building": "One Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3482.0,
-        "gfa": 3482.0
-      },
-      {
-        "date": "2026-02-04",
-        "building": "Bank of China Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Bank of China (Hong Kong) Limited",
-        "sector": "Banking and financial services",
-        "type": "Owner-occupied",
-        "nfa": 15208.8,
-        "gfa": 19011.0
-      },
-      {
-        "date": "2026-01-31",
-        "building": "HSBC Centre, Towers 1-3",
-        "submarket": "Kowloon Others",
-        "district": "Mong Kok",
-        "area": "Kowloon",
-        "tenant": "HSBC",
-        "sector": "Banking and financial services",
-        "type": "Owner-occupied",
-        "nfa": 12962.7445,
-        "gfa": 18397.0
-      },
-      {
-        "date": "2026-01-31",
-        "building": "Manulife Place (International Trade Tower)",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "Conair Far East Ltd.",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 28623.2,
-        "gfa": 35779.0
-      },
-      {
-        "date": "2026-01-31",
-        "building": "Millennium City 1",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "SCB",
-        "sector": "Banking and financial services",
-        "type": "Owner-occupied",
-        "nfa": 16055.52,
-        "gfa": 20584.0
-      },
-      {
-        "date": "2026-01-31",
-        "building": "Great Eagle Centre",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "Ocean Treasure Shipping Ltd",
-        "sector": "Import/export & logistics",
-        "type": "New Letting",
-        "nfa": 1996.8,
-        "gfa": 2496.0
-      },
-      {
-        "date": "2026-01-31",
-        "building": "Great Eagle Centre",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "King's Stone Holdngs Group Ltd / Ming Hui Management",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 1000.8,
-        "gfa": 1251.0
-      },
-      {
         "date": "2026-01-31",
         "building": "Great Eagle Centre",
         "submarket": "Wan Chai & Causeway Bay",
@@ -146693,11 +145493,11 @@ window.DASHBOARD_DATA = {
         "submarket": "Wan Chai & Causeway Bay",
         "district": "Wan Chai",
         "area": "Hong Kong Island",
-        "tenant": "Huazhong In-Vechice Holdings / Eastern Spring Capital",
-        "sector": "Manufacturing",
+        "tenant": "King's Stone Holdngs Group Ltd / Ming Hui Management",
+        "sector": "Real Estate & Construction",
         "type": "New Letting",
-        "nfa": 2648.0,
-        "gfa": 3310.0
+        "nfa": 1000.8,
+        "gfa": 1251.0
       },
       {
         "date": "2026-01-31",
@@ -146713,6 +145513,18 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-31",
+        "building": "Great Eagle Centre",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "Huazhong In-Vechice Holdings / Eastern Spring Capital",
+        "sector": "Manufacturing",
+        "type": "New Letting",
+        "nfa": 2648.0,
+        "gfa": 3310.0
+      },
+      {
+        "date": "2026-01-31",
         "building": "1111 King's Road",
         "submarket": "Hong Kong East",
         "district": "Quarry Bay",
@@ -146722,6 +145534,30 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 9055.8,
         "gfa": 10062.0
+      },
+      {
+        "date": "2026-01-31",
+        "building": "Manulife Place (International Trade Tower)",
+        "submarket": "Kowloon East",
+        "district": "Kwun Tong",
+        "area": "Kowloon",
+        "tenant": "Conair Far East Ltd.",
+        "sector": "Wholesale & retail trades",
+        "type": "New Letting",
+        "nfa": 28623.2,
+        "gfa": 35779.0
+      },
+      {
+        "date": "2026-01-31",
+        "building": "Great Eagle Centre",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "Ocean Treasure Shipping Ltd",
+        "sector": "Import/export & logistics",
+        "type": "New Letting",
+        "nfa": 1996.8,
+        "gfa": 2496.0
       },
       {
         "date": "2026-01-31",
@@ -146761,30 +145597,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-30",
-        "building": "The Bay Hub",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "E-Freight Global",
-        "sector": "Import/export & logistics",
-        "type": "New Letting",
-        "nfa": 1818.05,
-        "gfa": 2797.0
-      },
-      {
-        "date": "2026-01-30",
-        "building": "Boton Technology Innovation Tower",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "Unilumin (HK) Co Limited",
-        "sector": "Manufacturing",
-        "type": "Cancelled",
-        "nfa": 915.575,
-        "gfa": 1382.0
-      },
-      {
-        "date": "2026-01-30",
         "building": "Millennium City 6",
         "submarket": "Kowloon East",
         "district": "Kwun Tong",
@@ -146794,6 +145606,18 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1183.5,
         "gfa": 1578.0
+      },
+      {
+        "date": "2026-01-30",
+        "building": "The Bay Hub",
+        "submarket": "Kowloon East",
+        "district": "Kowloon Bay",
+        "area": "Kowloon",
+        "tenant": "E-Freight Global",
+        "sector": "Import/export & logistics",
+        "type": "New Letting",
+        "nfa": 1818.05,
+        "gfa": 2797.0
       },
       {
         "date": "2026-01-29",
@@ -146806,78 +145630,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 2491.28,
         "gfa": 3278.0
-      },
-      {
-        "date": "2026-01-28",
-        "building": "One Exchange Square",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1179.0,
-        "gfa": 1179.0
-      },
-      {
-        "date": "2026-01-28",
-        "building": "83 King Lam Street",
-        "submarket": "Kowloon Others",
-        "district": "Cheung Sha Wan",
-        "area": "Kowloon",
-        "tenant": "Canon Hong Kong Co Limited",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 23712.75,
-        "gfa": 31617.0
-      },
-      {
-        "date": "2026-01-28",
-        "building": "St. George's Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 2272.0,
-        "gfa": 2272.0
-      },
-      {
-        "date": "2026-01-28",
-        "building": "St. George's Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Alvarez & Marsal",
-        "sector": "Other professional services",
-        "type": "New Letting",
-        "nfa": 9393.0,
-        "gfa": 9393.0
-      },
-      {
-        "date": "2026-01-28",
-        "building": "Cheung Kong Center II",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 4003.68,
-        "gfa": 5268.0
-      },
-      {
-        "date": "2026-01-28",
-        "building": "AIA Central",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 6958.8,
-        "gfa": 7732.0
       },
       {
         "date": "2026-01-28",
@@ -146900,20 +145652,80 @@ window.DASHBOARD_DATA = {
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 6556.52,
-        "gfa": 8627.0
+        "nfa": 4003.68,
+        "gfa": 5268.0
       },
       {
-        "date": "2026-01-27",
+        "date": "2026-01-28",
+        "building": "St. George's Building",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 2272.0,
+        "gfa": 2272.0
+      },
+      {
+        "date": "2026-01-28",
         "building": "Cheung Kong Center II",
         "submarket": "Central",
         "district": "Central A1",
         "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
-        "type": "Rumour",
-        "nfa": 123050.08,
-        "gfa": 161908.0
+        "type": "New Letting",
+        "nfa": 6556.52,
+        "gfa": 8627.0
+      },
+      {
+        "date": "2026-01-28",
+        "building": "AIA Central",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 6958.8,
+        "gfa": 7732.0
+      },
+      {
+        "date": "2026-01-28",
+        "building": "83 King Lam Street",
+        "submarket": "Kowloon Others",
+        "district": "Cheung Sha Wan",
+        "area": "Kowloon",
+        "tenant": "Canon Hong Kong Co Limited",
+        "sector": "Wholesale & retail trades",
+        "type": "New Letting",
+        "nfa": 23712.75,
+        "gfa": 31617.0
+      },
+      {
+        "date": "2026-01-28",
+        "building": "One Exchange Square",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1179.0,
+        "gfa": 1179.0
+      },
+      {
+        "date": "2026-01-28",
+        "building": "St. George's Building",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Alvarez & Marsal",
+        "sector": "Other professional services",
+        "type": "New Letting",
+        "nfa": 9393.0,
+        "gfa": 9393.0
       },
       {
         "date": "2026-01-27",
@@ -146929,6 +145741,18 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-27",
+        "building": "Lippo Sun Plaza",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 715.4,
+        "gfa": 980.0
+      },
+      {
+        "date": "2026-01-27",
         "building": "Cheung Kong Center II",
         "submarket": "Central",
         "district": "Central A1",
@@ -146938,18 +145762,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 2552.84,
         "gfa": 3359.0
-      },
-      {
-        "date": "2026-01-27",
-        "building": "Nexxus Building",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Self-used",
-        "sector": "Unknown",
-        "type": "Owner-occupied",
-        "nfa": 9556.98,
-        "gfa": 10167.0
       },
       {
         "date": "2026-01-27",
@@ -146965,18 +145777,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-27",
-        "building": "Cheung Kong Center II",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Rumour",
-        "nfa": 123050.08,
-        "gfa": 161908.0
-      },
-      {
-        "date": "2026-01-27",
         "building": "Oxford House",
         "submarket": "Hong Kong East",
         "district": "Quarry Bay",
@@ -146986,30 +145786,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 10182.6,
         "gfa": 11314.0
-      },
-      {
-        "date": "2026-01-27",
-        "building": "Jardine House",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1481.0,
-        "gfa": 1481.0
-      },
-      {
-        "date": "2026-01-27",
-        "building": "Lippo Sun Plaza",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 715.4,
-        "gfa": 980.0
       },
       {
         "date": "2026-01-27",
@@ -147024,6 +145800,18 @@ window.DASHBOARD_DATA = {
         "gfa": 7519.0
       },
       {
+        "date": "2026-01-27",
+        "building": "Jardine House",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1481.0,
+        "gfa": 1481.0
+      },
+      {
         "date": "2026-01-26",
         "building": "Viva Place",
         "submarket": "Wong Chuk Hang",
@@ -147034,114 +145822,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 9690.03,
         "gfa": 11963.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "One ifc",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "Capital International Inc",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 31179.72,
-        "gfa": 33891.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "Six Pacific Place",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "Private Wealth Management Assoc Ltd",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 1910.7,
-        "gfa": 2123.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "CITIC Tower",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Admiralty",
-        "area": "Hong Kong Island",
-        "tenant": "EBC Tech Ltd",
-        "sector": "IT and technology",
-        "type": "New Letting",
-        "nfa": 3311.69,
-        "gfa": 3721.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "Plaza 228",
-        "submarket": "Wan Chai",
-        "district": "Wan Chai And Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Edvisar Ltd",
-        "sector": "Other professional services",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 4195.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "The Center",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "Huatai Financial Holdings (HK) Ltd",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 17280.16,
-        "gfa": 25412.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "Jade Centre",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "The Gaudery Ltd",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 918.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "Jade Centre",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Moon Sohyun",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 918.0
-      },
-      {
-        "date": "2026-01-26",
-        "building": "Lee Kum Kee Central",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Lui Mount Hung Edward",
-        "sector": "Legal",
-        "type": "New Letting",
-        "nfa": null,
-        "gfa": null
-      },
-      {
-        "date": "2026-01-26",
-        "building": "Lee Kum Kee Central",
-        "submarket": "Central Non A1",
-        "district": "Central",
-        "area": "Hong Kong Island",
-        "tenant": "Hawkins & Associates (HK) Ltd",
-        "sector": "Insurance",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 2339.0
       },
       {
         "date": "2026-01-26",
@@ -147168,6 +145848,54 @@ window.DASHBOARD_DATA = {
         "gfa": 1714.0
       },
       {
+        "date": "2026-01-26",
+        "building": "Six Pacific Place",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "Private Wealth Management Assoc Ltd",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 1910.7,
+        "gfa": 2123.0
+      },
+      {
+        "date": "2026-01-26",
+        "building": "One ifc",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Capital International Inc",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 31179.72,
+        "gfa": 33891.0
+      },
+      {
+        "date": "2026-01-26",
+        "building": "The Center",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Sheung Wan",
+        "area": "Hong Kong Island",
+        "tenant": "Huatai Financial Holdings (HK) Ltd",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 17280.16,
+        "gfa": 25412.0
+      },
+      {
+        "date": "2026-01-26",
+        "building": "CITIC Tower",
+        "submarket": "Admiralty & Sheung Wan",
+        "district": "Admiralty",
+        "area": "Hong Kong Island",
+        "tenant": "EBC Tech Ltd",
+        "sector": "IT and technology",
+        "type": "New Letting",
+        "nfa": 3311.69,
+        "gfa": 3721.0
+      },
+      {
         "date": "2026-01-22",
         "building": "Millennium City 1",
         "submarket": "Kowloon East",
@@ -147178,30 +145906,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 3728.4,
         "gfa": 4780.0
-      },
-      {
-        "date": "2026-01-22",
-        "building": "D2 Place Two",
-        "submarket": "Cheung Sha Wan",
-        "district": "Kowloon Others",
-        "area": "Kowloon",
-        "tenant": "TBC (Medical Client)",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 4447.5,
-        "gfa": 5930.0
-      },
-      {
-        "date": "2026-01-22",
-        "building": "35-37 Cameron Road",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "EC Healthcare",
-        "sector": "Others",
-        "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 7100.0
       },
       {
         "date": "2026-01-22",
@@ -147241,18 +145945,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-16",
-        "building": "Manhattan Place",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "Global Payments Asia-Pacific (Hong Kong) Limited",
-        "sector": "IT and technology",
-        "type": "New Letting",
-        "nfa": 8136.0,
-        "gfa": 10170.0
-      },
-      {
-        "date": "2026-01-16",
         "building": "Wheelock House",
         "submarket": "Central",
         "district": "Central non-A1",
@@ -147264,16 +145956,16 @@ window.DASHBOARD_DATA = {
         "gfa": 10260.0
       },
       {
-        "date": "2026-01-14",
-        "building": "The Rays",
-        "submarket": "Kwun Tong",
-        "district": "Kowloon East",
+        "date": "2026-01-16",
+        "building": "Manhattan Place",
+        "submarket": "Kowloon East",
+        "district": "Kowloon Bay",
         "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
+        "tenant": "Global Payments Asia-Pacific (Hong Kong) Limited",
+        "sector": "IT and technology",
         "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 7285.0
+        "nfa": 8136.0,
+        "gfa": 10170.0
       },
       {
         "date": "2026-01-14",
@@ -147293,30 +145985,6 @@ window.DASHBOARD_DATA = {
         "submarket": "Central",
         "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "Madison Pacific Trust Ltd",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 3927.0,
-        "gfa": 5236.0
-      },
-      {
-        "date": "2026-01-12",
-        "building": "The Center",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 4405.04,
-        "gfa": 6478.0
-      },
-      {
-        "date": "2026-01-12",
-        "building": "Bank of America Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
         "tenant": "TBC",
         "sector": "Unknown",
         "type": "New Letting",
@@ -147325,15 +145993,15 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-12",
-        "building": "Nexxus Building",
+        "building": "Bank of America Tower",
         "submarket": "Central",
         "district": "Central non-A1",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 7603.66,
-        "gfa": 8089.0
+        "tenant": "Madison Pacific Trust Ltd",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 3927.0,
+        "gfa": 5236.0
       },
       {
         "date": "2026-01-09",
@@ -147384,28 +146052,16 @@ window.DASHBOARD_DATA = {
         "gfa": 5033.0
       },
       {
-        "date": "2026-01-05",
-        "building": "Exchange Tower",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "Residential Showflat",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 20592.75,
-        "gfa": 27457.0
-      },
-      {
-        "date": "2026-01-02",
-        "building": "The Center",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
+        "date": "2026-01-01",
+        "building": "Lee Garden Three",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Causeway Bay",
         "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 18074.4,
-        "gfa": 26580.0
+        "tenant": "Acclime Hong Kong",
+        "sector": "Other professional services",
+        "type": "New Letting",
+        "nfa": 15736.63,
+        "gfa": 17293.0
       },
       {
         "date": "2026-01-01",
@@ -147421,78 +146077,6 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-01",
-        "building": "Three Garden Road - ICBC Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Prime Wealth Management Ltd",
-        "sector": "Insurance",
-        "type": "New Letting",
-        "nfa": 3400.0,
-        "gfa": 4000.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Millennium City 5",
-        "submarket": "Kowloon East",
-        "district": "Kwun Tong",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 948.48,
-        "gfa": 1216.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "YF Life Tower",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "Moreish & Malt",
-        "sector": "Others",
-        "type": "Cancelled",
-        "nfa": 3192.0,
-        "gfa": 4560.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "World Finance Centre, North Tower",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1684.0,
-        "gfa": 2105.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "China Resources Building",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 8773.7,
-        "gfa": 10322.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "181 Queen's Road Central",
-        "submarket": "Admiralty & Sheung Wan",
-        "district": "Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 5914.3,
-        "gfa": 8449.0
-      },
-      {
-        "date": "2026-01-01",
         "building": "Tak Shing House",
         "submarket": "Central",
         "district": "Central non-A1",
@@ -147502,78 +146086,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 3400.0,
         "gfa": 4000.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "The Wellington",
-        "submarket": "Sheung Wan",
-        "district": "Admiralty And Sheung Wan",
-        "area": "Hong Kong Island",
-        "tenant": "Capital Advance Ltd",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 2697.75,
-        "gfa": 3597.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "The Gateway, Tower 5",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "Fantastic Natural Cosmetics Ltd",
-        "sector": "Wholesale & retail trades",
-        "type": "Cancelled",
-        "nfa": 17291.25,
-        "gfa": 23055.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "AIA Central",
-        "submarket": "Central",
-        "district": "Central A1",
-        "area": "Hong Kong Island",
-        "tenant": "Hudson Bay Capital Management - Accrual",
-        "sector": "Banking and financial services",
-        "type": "New Letting",
-        "nfa": 6390.0,
-        "gfa": 7100.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "The Gateway, Tower 5",
-        "submarket": "Tsim Sha Tsui",
-        "district": "Tsim Sha Tsui",
-        "area": "Kowloon",
-        "tenant": "AIA Group Limited",
-        "sector": "Insurance",
-        "type": "Cancelled",
-        "nfa": 18252.75,
-        "gfa": 24337.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Three Pacific Place",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Wan Chai",
-        "area": "Hong Kong Island",
-        "tenant": "Tencent",
-        "sector": "IT and technology",
-        "type": "New Letting",
-        "nfa": 4971.6,
-        "gfa": 5524.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Global Trade Square",
-        "submarket": "Wong Chuk Hang",
-        "district": "Wong Chuk Hang",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 5495.25,
-        "gfa": 7327.0
       },
       {
         "date": "2026-01-01",
@@ -147589,6 +146101,30 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-01",
+        "building": "Three Garden Road - ICBC Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Prime Wealth Management Ltd",
+        "sector": "Insurance",
+        "type": "New Letting",
+        "nfa": 3400.0,
+        "gfa": 4000.0
+      },
+      {
+        "date": "2026-01-01",
+        "building": "World Finance Centre, North Tower",
+        "submarket": "Tsim Sha Tsui",
+        "district": "Tsim Sha Tsui",
+        "area": "Kowloon",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 1684.0,
+        "gfa": 2105.0
+      },
+      {
+        "date": "2026-01-01",
         "building": "Bank of America Tower",
         "submarket": "Central",
         "district": "Central non-A1",
@@ -147598,42 +146134,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 852.75,
         "gfa": 1137.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Kerry Centre",
-        "submarket": "Hong Kong East",
-        "district": "Quarry Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Reserved",
-        "nfa": 14854.1,
-        "gfa": 16690.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Bank of America Tower",
-        "submarket": "Central",
-        "district": "Central non-A1",
-        "area": "Hong Kong Island",
-        "tenant": "Jelson Development Ltd",
-        "sector": "Real Estate & Construction",
-        "type": "New Letting",
-        "nfa": 1349.25,
-        "gfa": 1799.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "AIA Tower",
-        "submarket": "Hong Kong East",
-        "district": "North Point",
-        "area": "Hong Kong Island",
-        "tenant": "Mikimoto Pearl Jewellery (HK) Ltd",
-        "sector": "Wholesale & retail trades",
-        "type": "New Letting",
-        "nfa": 3119.5,
-        "gfa": 3670.0
       },
       {
         "date": "2026-01-01",
@@ -147649,6 +146149,66 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-01",
+        "building": "Bank of America Tower",
+        "submarket": "Central",
+        "district": "Central non-A1",
+        "area": "Hong Kong Island",
+        "tenant": "Jelson Development Ltd",
+        "sector": "Real Estate & Construction",
+        "type": "New Letting",
+        "nfa": 1349.25,
+        "gfa": 1799.0
+      },
+      {
+        "date": "2026-01-01",
+        "building": "Global Trade Square",
+        "submarket": "Wong Chuk Hang",
+        "district": "Wong Chuk Hang",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 5495.25,
+        "gfa": 7327.0
+      },
+      {
+        "date": "2026-01-01",
+        "building": "Three Pacific Place",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "Tencent",
+        "sector": "IT and technology",
+        "type": "New Letting",
+        "nfa": 4971.6,
+        "gfa": 5524.0
+      },
+      {
+        "date": "2026-01-01",
+        "building": "AIA Tower",
+        "submarket": "Hong Kong East",
+        "district": "North Point",
+        "area": "Hong Kong Island",
+        "tenant": "Mikimoto Pearl Jewellery (HK) Ltd",
+        "sector": "Wholesale & retail trades",
+        "type": "New Letting",
+        "nfa": 3119.5,
+        "gfa": 3670.0
+      },
+      {
+        "date": "2026-01-01",
+        "building": "AIA Central",
+        "submarket": "Central",
+        "district": "Central A1",
+        "area": "Hong Kong Island",
+        "tenant": "Hudson Bay Capital Management - Accrual",
+        "sector": "Banking and financial services",
+        "type": "New Letting",
+        "nfa": 6390.0,
+        "gfa": 7100.0
+      },
+      {
+        "date": "2026-01-01",
         "building": "Global Trade Square",
         "submarket": "Wong Chuk Hang",
         "district": "Wong Chuk Hang",
@@ -147661,15 +146221,27 @@ window.DASHBOARD_DATA = {
       },
       {
         "date": "2026-01-01",
-        "building": "OP Mall",
-        "submarket": "Tsuen Wan",
-        "district": "New Territories",
-        "area": "New Territories",
-        "tenant": "XES Education and Technology",
-        "sector": "Others",
+        "building": "Times Square, Tower 2",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Causeway Bay",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
         "type": "New Letting",
-        "nfa": 0.0,
-        "gfa": 3596.0
+        "nfa": 1077.0,
+        "gfa": 1436.0
+      },
+      {
+        "date": "2026-01-01",
+        "building": "China Resources Building",
+        "submarket": "Wan Chai & Causeway Bay",
+        "district": "Wan Chai",
+        "area": "Hong Kong Island",
+        "tenant": "TBC",
+        "sector": "Unknown",
+        "type": "New Letting",
+        "nfa": 8773.7,
+        "gfa": 10322.0
       },
       {
         "date": "2026-01-01",
@@ -147682,42 +146254,6 @@ window.DASHBOARD_DATA = {
         "type": "New Letting",
         "nfa": 1103.2,
         "gfa": 1576.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Lee Garden Three",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "Acclime Hong Kong",
-        "sector": "Other professional services",
-        "type": "New Letting",
-        "nfa": 15736.63,
-        "gfa": 17293.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Exchange Tower",
-        "submarket": "Kowloon East",
-        "district": "Kowloon Bay",
-        "area": "Kowloon",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "Cancelled",
-        "nfa": 3435.75,
-        "gfa": 4581.0
-      },
-      {
-        "date": "2026-01-01",
-        "building": "Times Square, Tower 2",
-        "submarket": "Wan Chai & Causeway Bay",
-        "district": "Causeway Bay",
-        "area": "Hong Kong Island",
-        "tenant": "TBC",
-        "sector": "Unknown",
-        "type": "New Letting",
-        "nfa": 1077.0,
-        "gfa": 1436.0
       }
     ]
   },
@@ -147961,5 +146497,5 @@ window.DASHBOARD_DATA = {
       }
     ]
   },
-  "generated_at": "2026-07-08 18:00"
+  "generated_at": "2026-07-09 02:27"
 };

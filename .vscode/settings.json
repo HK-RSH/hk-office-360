@@ -4,7 +4,7 @@
         "commands": [
             {
                 "match": "\\.html$",
-                "cmd": "git commit -am 'Auto-update dashboard' && git push"
+                "cmd": "git add . && git commit -m 'sync' && git push"
             }
         ]
     }

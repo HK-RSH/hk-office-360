@@ -10,8 +10,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
-<script src="dashboard_data.js?v=20260718"></script>
-<script src="stacking_plan_data.js?v=20260718"></script>
+<script src="dashboard_data.js?v=20260719"></script>
+<script src="stacking_plan_data.js?v=20260719"></script>
 <style>
 @font-face{font-family:"Financier Display";src:url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-regular.woff2") format("woff2"),url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-regular-w.woff") format("woff");font-weight:400;font-style:normal;font-display:block}
 @font-face{font-family:"Financier Display";src:url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-medium.woff2") format("woff2"),url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-medium-w.woff") format("woff");font-weight:500;font-style:normal;font-display:block}
@@ -49,7 +49,7 @@ body{font-family:'Calibre','Segoe UI',Arial,sans-serif;background:var(--bg);colo
 .up{color:#1B7A3E}.dn{color:#B71C1C}
 
 /* ── TAB NAV ── */
-.tab-nav{background:#fff;border-bottom:2px solid var(--border);display:flex;padding:0 20px;overflow-x:auto;flex-shrink:0}
+.tab-nav{background:#fff;border-bottom:2px solid var(--border);display:flex;padding:0 20px;overflow:hidden;flex-shrink:0}
 .tab-btn{padding:11px 18px;font-size:14px;font-weight:500;cursor:pointer;border:none;background:none;color:var(--mid);border-bottom:3px solid transparent;margin-bottom:-2px;white-space:nowrap;transition:all .15s}
 .tab-btn:hover{color:var(--green)}
 .tab-btn.active{color:var(--green);border-bottom-color:var(--green);font-weight:700}
@@ -129,6 +129,17 @@ select,input[type=text]{padding:5px 9px;border:1px solid var(--border);border-ra
 .tnt-chip{display:inline-flex;align-items:center;gap:4px;background:#e6f4f1;border:1px solid #80BBAD;border-radius:12px;padding:2px 8px 2px 10px;font-size:11px;color:#003F2D;white-space:nowrap}
 .tnt-chip-x{cursor:pointer;font-size:13px;line-height:1;opacity:.7;margin-left:2px}
 .tnt-chip-x:hover{opacity:1}
+/* ── ENLARGE BUTTON & MODAL ── */
+.enlarge-btn{background:none;border:1px solid var(--border);border-radius:4px;color:var(--mid);cursor:pointer;font-size:14px;line-height:1;padding:3px 6px;margin-left:8px;transition:all .15s}
+.enlarge-btn:hover{background:var(--light);color:var(--green)}
+.enlarge-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9000;align-items:center;justify-content:center}
+.enlarge-overlay.open{display:flex}
+.enlarge-modal{background:#fff;border-radius:10px;box-shadow:0 8px 40px rgba(0,0,0,.3);display:flex;flex-direction:column;width:92vw;height:88vh;overflow:hidden}
+.enlarge-modal-hdr{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--border);flex-shrink:0}
+.enlarge-modal-title{font-weight:600;font-size:15px;color:var(--dark)}
+.enlarge-close{background:none;border:none;font-size:20px;cursor:pointer;color:var(--mid);line-height:1}
+.enlarge-close:hover{color:var(--green)}
+.enlarge-body{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column}
 
 /* ── MAP ── */
 #map-container{height:500px;border-radius:8px;border:1px solid var(--border);overflow:hidden}
@@ -281,15 +292,20 @@ select,input[type=text]{padding:5px 9px;border:1px solid var(--border);border-ra
     <div class="tbl-hdr" style="flex-wrap:wrap;gap:8px;align-items:flex-start">
       <span style="align-self:center">Recent Grade A Office New Leasing Transactions</span>
       <div style="display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap">
-        <input class="search-inp" id="txn-search-bldg" type="text" placeholder="Search building…" oninput="filterTxnTable()" style="width:170px">
+        <div class="tnt-wrap">
+          <input class="search-inp" id="txn-search-bldg" type="text" placeholder="Search building…" oninput="onBldgInput()" autocomplete="off" style="width:170px">
+          <div class="tnt-dropdown" id="bldg-dropdown"></div>
+          <div class="tnt-chips" id="bldg-chips"></div>
+        </div>
         <div class="tnt-wrap">
           <input class="search-inp" id="txn-search-tnt" type="text" placeholder="Search tenant…" oninput="onTntInput()" autocomplete="off" style="width:170px">
           <div class="tnt-dropdown" id="tnt-dropdown"></div>
           <div class="tnt-chips" id="tnt-chips"></div>
         </div>
+        <button class="enlarge-btn" onclick="openEnlarge('txn-table-wrap','txn-table')" title="Enlarge table" style="align-self:flex-start">⤢</button>
       </div>
     </div>
-    <div class="tbl-scroll"><table id="txn-table">
+    <div class="tbl-scroll" id="txn-table-wrap"><table id="txn-table">
       <thead><tr>
         <th>Date</th><th>Building</th><th>Submarket</th><th>District</th><th>Region</th><th>Tenant</th><th>Sector</th><th class="num">NFA (sq. ft.)</th>
       </tr></thead>
@@ -434,7 +450,14 @@ select,input[type=text]{padding:5px 9px;border:1px solid var(--border);border-ra
           <div class="leg-item"><span class="leg-dot" style="background:var(--teal)"></span>Hong Kong Island</div>
           <div class="leg-item"><span class="leg-dot" style="background:var(--dark)"></span>Kowloon</div>
           <div class="leg-item"><span class="leg-dot" style="background:var(--accent)"></span>New Territories</div>
-          <div style="font-size:14px;color:var(--mid);margin-left:auto">Dot size = NFA</div>
+          <div style="display:flex;align-items:center;gap:6px;margin-left:auto;font-size:13px;color:var(--mid)">
+            Dot size:
+            <div class="gran-pills" style="margin:0">
+              <button class="gran-pill active" id="map-dim-nfa" onclick="setMapDim('nfa')">Office Stock</button>
+              <button class="gran-pill" id="map-dim-vac" onclick="setMapDim('vac')">Vacant Space</button>
+            </div>
+          </div>
+          <button class="enlarge-btn" onclick="openEnlarge('map-container','bldg-map')" title="Enlarge map">⤢</button>
         </div>
         <div id="map-container"></div>
       </div>
@@ -536,6 +559,7 @@ select,input[type=text]{padding:5px 9px;border:1px solid var(--border);border-ra
     <div class="card" style="display:flex;flex-direction:column">
       <div class="card-hdr">
         <div><div class="card-title">Project Locations</div><div class="card-sub">Bubble size ∝ NFA · click for details</div></div>
+        <button class="enlarge-btn" onclick="openEnlarge('sup-map-container','sup-map')" title="Enlarge map">⤢</button>
       </div>
       <div id="sup-map-container" style="flex:1;min-height:340px;border-radius:0 0 8px 8px"></div>
     </div>
@@ -608,9 +632,11 @@ let MG     = null;   // Leaflet layer group
 let ALL_BLDGS = [];  // all building records
 let ALL_PROJ  = [];  // all supply projects
 let ALL_DEALS     = [];  // 2026 Grade A NL deals (default table)
-let ALL_NL_DEALS  = [];  // all-time Grade A NL deals (used when tenants selected)
+let ALL_NL_DEALS  = [];  // all-time Grade A NL deals (used when tenants/buildings selected)
 let ALL_TENANTS   = [];  // sorted unique tenant names for autocomplete
+let ALL_BLDG_NAMES = []; // sorted unique building names for autocomplete
 let SEL_TENANTS   = new Set();  // currently selected tenants
+let SEL_BLDGS     = new Set();  // currently selected buildings
 // ── QoQ volume change from latest ended quarter ───────────────────────
 function computeQoQ(rawNl, latestDateStr) {
   const MON = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
@@ -931,9 +957,10 @@ function buildTransactionTab(tx) {
   });
 
   // ── Transaction table ────────────────────────────────────────────────
-  ALL_DEALS    = tx.latest_deals;
-  ALL_NL_DEALS = tx.all_nl_deals || [];
-  ALL_TENANTS  = tx.all_tenants  || [];
+  ALL_DEALS      = tx.latest_deals;
+  ALL_NL_DEALS   = tx.all_nl_deals   || [];
+  ALL_TENANTS    = tx.all_tenants    || [];
+  ALL_BLDG_NAMES = tx.all_buildings  || [];
   renderTxnTable(ALL_DEALS);
 }
 
@@ -1197,20 +1224,57 @@ document.addEventListener('click', e => {
   if (!e.target.closest('.tnt-wrap')) {
     const dd = document.getElementById('tnt-dropdown');
     if (dd) dd.style.display = 'none';
+    const bd = document.getElementById('bldg-dropdown');
+    if (bd) bd.style.display = 'none';
   }
 });
 
+// ── Building autocomplete ─────────────────────────────
+function onBldgInput() {
+  const q  = document.getElementById('txn-search-bldg').value.trim().toLowerCase();
+  const dd = document.getElementById('bldg-dropdown');
+  if (!q) { dd.style.display = 'none'; return; }
+  const matches = ALL_BLDG_NAMES.filter(b => b.toLowerCase().includes(q) && !SEL_BLDGS.has(b)).slice(0, 20);
+  if (!matches.length) { dd.style.display = 'none'; return; }
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+  dd.innerHTML = matches.map(b =>
+    `<div class="tnt-opt" data-b="${b.replace(/"/g,'&quot;')}">${b.replace(re,'<strong>$1</strong>')}</div>`
+  ).join('');
+  dd.querySelectorAll('.tnt-opt').forEach(el =>
+    el.addEventListener('mousedown', e => { e.preventDefault(); selectBldg(el.dataset.b); })
+  );
+  dd.style.display = 'block';
+}
+function selectBldg(name) {
+  SEL_BLDGS.add(name);
+  document.getElementById('txn-search-bldg').value = '';
+  document.getElementById('bldg-dropdown').style.display = 'none';
+  renderBldgChips();
+  filterTxnTable();
+}
+function removeBldg(name) { SEL_BLDGS.delete(name); renderBldgChips(); filterTxnTable(); }
+function renderBldgChips() {
+  const container = document.getElementById('bldg-chips');
+  container.innerHTML = [...SEL_BLDGS].map(b =>
+    `<span class="tnt-chip"><span>${b.replace(/</g,'&lt;')}</span><span class="tnt-chip-x" data-b="${b.replace(/"/g,'&quot;')}">×</span></span>`
+  ).join('');
+  container.querySelectorAll('.tnt-chip-x').forEach(x =>
+    x.addEventListener('click', () => removeBldg(x.dataset.b))
+  );
+}
+
 function filterTxnTable() {
-  const qb  = document.getElementById('txn-search-bldg').value.toLowerCase();
   const sub = document.getElementById('f-ann-sub').value;
   const sec = document.getElementById('f-ann-sec').value;
-  // If tenants selected, show all-time records for those tenants; otherwise 2026 default
-  let filtered = SEL_TENANTS.size > 0
-    ? ALL_NL_DEALS.filter(r => SEL_TENANTS.has(r.tenant))
+  // Show all-time records if any building or tenant is selected; otherwise 2026 default
+  let filtered = (SEL_TENANTS.size > 0 || SEL_BLDGS.size > 0)
+    ? ALL_NL_DEALS.filter(r =>
+        (SEL_TENANTS.size === 0 || SEL_TENANTS.has(r.tenant)) &&
+        (SEL_BLDGS.size   === 0 || SEL_BLDGS.has(r.building))
+      )
     : ALL_DEALS;
   if (sub) filtered = filtered.filter(r => r.submarket === sub);
   if (sec) filtered = filtered.filter(r => r.sector    === sec);
-  if (qb)  filtered = filtered.filter(r => (r.building||'').toLowerCase().includes(qb));
   renderTxnTable(filtered);
 }
 
@@ -1928,6 +1992,7 @@ function applyBldgFilters() {
   });
   renderBldgTable(filtered);
   document.getElementById('bldg-count').textContent = filtered.length+' buildings';
+  CUR_MAP_BLDGS = filtered;
   updateMapMarkers(filtered);
   updateBldgCharts(filtered);
 }
@@ -2088,13 +2153,20 @@ function nfaRadius(nfa) {
   const r = 4 + (Math.min(nfa,mx)-mn)/(mx-mn)*10;
   return Math.max(4, Math.min(14, r));
 }
+function vacRadius(vac) {
+  if(!vac || vac<=0) return 4;
+  const mn=0, mx=300000;
+  const r = 4 + (Math.min(vac,mx)-mn)/(mx-mn)*12;
+  return Math.max(4, Math.min(16, r));
+}
 
 function updateMapMarkers(bldgs) {
   if(!MAP||!MG) return;
   MG.clearLayers();
   bldgs.filter(b=>b.lat&&b.lon&&b.lat!==0).forEach(b=>{
+    const radius = MAP_DIM === 'vac' ? vacRadius((b.vacant||0)+(b.futureVac||0)+(b.shadowVac||0)) : nfaRadius(b.nfa);
     const mk = L.circleMarker([b.lat,b.lon],{
-      radius: nfaRadius(b.nfa),
+      radius,
       fillColor: areaColor(b.area),
       color:'#fff', weight:1, opacity:1, fillOpacity:.75
     });
@@ -3601,6 +3673,97 @@ async function dlPPT(chartKey, title) {
   }
 }
 
+
+// ── Map dot-size dimension ────────────────────────────
+let MAP_DIM = 'nfa'; // 'nfa' | 'vac'
+let CUR_MAP_BLDGS = []; // currently displayed buildings on map
+function setMapDim(dim) {
+  MAP_DIM = dim;
+  document.getElementById('map-dim-nfa').classList.toggle('active', dim==='nfa');
+  document.getElementById('map-dim-vac').classList.toggle('active', dim==='vac');
+  updateMapMarkers(CUR_MAP_BLDGS.length ? CUR_MAP_BLDGS : ALL_BLDGS);
+}
+
+// ── Enlarge modal ─────────────────────────────────────
+let _enlargeOrigParent = null, _enlargeEl = null, _enlargeMap = null, _enlargeOrigStyle = '';
+
+function openEnlarge(elId, type) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  _enlargeEl = el;
+  _enlargeOrigParent = el.parentNode;
+  _enlargeOrigStyle  = el.getAttribute('style') || '';
+
+  const overlay = document.getElementById('enlarge-overlay');
+  const body    = document.getElementById('enlarge-body');
+  const title   = document.getElementById('enlarge-modal-title');
+
+  const titles = {
+    'txn-table': 'Grade A Office New Leasing Transactions',
+    'bldg-map':  'Building Locations',
+    'sup-map':   'Project Locations'
+  };
+  title.textContent = titles[type] || '';
+
+  // Make element fill the modal body
+  el.style.width     = '100%';
+  el.style.height    = '100%';
+  el.style.maxHeight = 'none';
+  el.style.minHeight = '0';
+  el.style.borderRadius = '0';
+  body.style.padding = '0';
+  body.style.overflow = 'hidden';
+
+  body.appendChild(el);
+  overlay.classList.add('open');
+
+  // Invalidate Leaflet maps so they re-render at new size
+  if (type === 'bldg-map') {
+    _enlargeMap = MAP;
+    setTimeout(() => { if (MAP) MAP.invalidateSize(); }, 120);
+  } else if (type === 'sup-map') {
+    _enlargeMap = SUP_MAP;
+    setTimeout(() => { if (SUP_MAP) SUP_MAP.invalidateSize(); }, 120);
+  } else {
+    _enlargeMap = null;
+  }
+}
+
+function closeEnlarge() {
+  const overlay = document.getElementById('enlarge-overlay');
+  const body    = document.getElementById('enlarge-body');
+  if (_enlargeEl && _enlargeOrigParent) {
+    // Restore original style
+    if (_enlargeOrigStyle) _enlargeEl.setAttribute('style', _enlargeOrigStyle);
+    else _enlargeEl.removeAttribute('style');
+    body.style.padding  = '12px';
+    body.style.overflow = 'auto';
+    _enlargeOrigParent.appendChild(_enlargeEl);
+  }
+  overlay.classList.remove('open');
+  if (_enlargeMap) setTimeout(() => _enlargeMap.invalidateSize(), 80);
+  _enlargeEl = null; _enlargeOrigParent = null; _enlargeMap = null; _enlargeOrigStyle = '';
+}
+
+// Close on overlay background click
+document.getElementById('enlarge-overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('enlarge-overlay')) closeEnlarge();
+});
+// Close on Escape
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeEnlarge(); });
+
 </script>
+
+<!-- ENLARGE MODAL -->
+<div class="enlarge-overlay" id="enlarge-overlay">
+  <div class="enlarge-modal">
+    <div class="enlarge-modal-hdr">
+      <span class="enlarge-modal-title" id="enlarge-modal-title"></span>
+      <button class="enlarge-close" onclick="closeEnlarge()">✕</button>
+    </div>
+    <div class="enlarge-body" id="enlarge-body"></div>
+  </div>
+</div>
+
 </body>
 </html>

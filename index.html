@@ -302,6 +302,11 @@ select,input[type=text]{padding:5px 9px;border:1px solid var(--border);border-ra
           <div class="tnt-dropdown" id="tnt-dropdown"></div>
           <div class="tnt-chips" id="tnt-chips"></div>
         </div>
+        <div class="tnt-wrap">
+          <input class="search-inp" id="txn-search-agn" type="text" placeholder="Search agency…" oninput="onAgnInput()" onfocus="onAgnInput()" autocomplete="off" style="width:150px">
+          <div class="tnt-dropdown" id="agn-dropdown"></div>
+          <div class="tnt-chips" id="agn-chips"></div>
+        </div>
         <button class="enlarge-btn" onclick="openEnlarge('txn-table-wrap','txn-table')" title="Enlarge table" style="align-self:flex-start">⤢</button>
       </div>
     </div>
@@ -637,6 +642,7 @@ let ALL_TENANTS   = [];  // sorted unique tenant names for autocomplete
 let ALL_BLDG_NAMES = []; // sorted unique building names for autocomplete
 let SEL_TENANTS   = new Set();  // currently selected tenants
 let SEL_BLDGS     = new Set();  // currently selected buildings
+let SEL_AGENCIES  = new Set();  // currently selected agencies (grouped)
 // ── QoQ volume change from latest ended quarter ───────────────────────
 function computeQoQ(rawNl, latestDateStr) {
   const MON = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
@@ -1226,6 +1232,8 @@ document.addEventListener('click', e => {
     if (dd) dd.style.display = 'none';
     const bd = document.getElementById('bldg-dropdown');
     if (bd) bd.style.display = 'none';
+    const ad = document.getElementById('agn-dropdown');
+    if (ad) ad.style.display = 'none';
   }
 });
 
@@ -1263,14 +1271,49 @@ function renderBldgChips() {
   );
 }
 
+// ── Agency autocomplete ───────────────────────────────
+const AGN_LIST = ['CBRE','JLL','Savills','C&W','DTZ','Knight Frank','Newmark','Blackhills','Direct','Others'];
+function onAgnInput() {
+  const q  = document.getElementById('txn-search-agn').value.trim().toLowerCase();
+  const dd = document.getElementById('agn-dropdown');
+  const matches = AGN_LIST.filter(a => (!q || a.toLowerCase().includes(q)) && !SEL_AGENCIES.has(a));
+  if (!matches.length) { dd.style.display = 'none'; return; }
+  const re = q ? new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi') : null;
+  dd.innerHTML = matches.map(a =>
+    `<div class="tnt-opt" data-a="${a}">${re ? a.replace(re,'<strong>$1</strong>') : a}</div>`
+  ).join('');
+  dd.querySelectorAll('.tnt-opt').forEach(el =>
+    el.addEventListener('mousedown', e => { e.preventDefault(); selectAgn(el.dataset.a); })
+  );
+  dd.style.display = 'block';
+}
+function selectAgn(name) {
+  SEL_AGENCIES.add(name);
+  document.getElementById('txn-search-agn').value = '';
+  document.getElementById('agn-dropdown').style.display = 'none';
+  renderAgnChips();
+  filterTxnTable();
+}
+function removeAgn(name) { SEL_AGENCIES.delete(name); renderAgnChips(); filterTxnTable(); }
+function renderAgnChips() {
+  const container = document.getElementById('agn-chips');
+  container.innerHTML = [...SEL_AGENCIES].map(a =>
+    `<span class="tnt-chip"><span>${a}</span><span class="tnt-chip-x" data-a="${a}">×</span></span>`
+  ).join('');
+  container.querySelectorAll('.tnt-chip-x').forEach(x =>
+    x.addEventListener('click', () => removeAgn(x.dataset.a))
+  );
+}
+
 function filterTxnTable() {
   const sub = document.getElementById('f-ann-sub').value;
   const sec = document.getElementById('f-ann-sec').value;
-  // Show all-time records if any building or tenant is selected; otherwise 2026 default
-  let filtered = (SEL_TENANTS.size > 0 || SEL_BLDGS.size > 0)
+  // Show all-time records if any building, tenant or agency is selected; otherwise 2026 default
+  let filtered = (SEL_TENANTS.size > 0 || SEL_BLDGS.size > 0 || SEL_AGENCIES.size > 0)
     ? ALL_NL_DEALS.filter(r =>
-        (SEL_TENANTS.size === 0 || SEL_TENANTS.has(r.tenant)) &&
-        (SEL_BLDGS.size   === 0 || SEL_BLDGS.has(r.building))
+        (SEL_TENANTS.size  === 0 || SEL_TENANTS.has(r.tenant)) &&
+        (SEL_BLDGS.size    === 0 || SEL_BLDGS.has(r.building)) &&
+        (SEL_AGENCIES.size === 0 || SEL_AGENCIES.has(_agencyGroup(r.agn||'')))
       )
     : ALL_DEALS;
   if (sub) filtered = filtered.filter(r => r.submarket === sub);

@@ -175,8 +175,9 @@ if len(_nr_sorted) >= 13:
                                  'values': [r[1] for r in rows_yoy]}
 
 annual_ner = (nr[nr['Year'] >= 2008]
-              .groupby('Year').apply(lambda x: x.nlargest(1,'Month'))
-              .reset_index(drop=True))
+              .sort_values('Month', ascending=False)
+              .groupby('Year').first()
+              .reset_index())
 
 def avg_cols(df, cols):
     return [safe(row[cols].dropna().mean()) for _, row in df.iterrows()]

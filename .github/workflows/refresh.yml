@@ -1,0 +1,49 @@
+name: Refresh Dashboard Data
+
+on:
+  push:
+    paths:
+      - 'hk-office-360/*.xlsm'
+      - 'hk-office-360/*.xlsx'
+      - '*.xlsm'
+      - '*.xlsx'
+  workflow_dispatch:   # lets you trigger manually from GitHub website
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas openpyxl
+
+      - name: Run refresh script
+        run: |
+          # Find the script — works whether repo root = hk-office-360 or has it as subfolder
+          if [ -f "refresh_data.py" ]; then
+            python refresh_data.py
+          elif [ -f "hk-office-360/refresh_data.py" ]; then
+            python hk-office-360/refresh_data.py
+          else
+            echo "ERROR: refresh_data.py not found" && exit 1
+          fi
+
+      - name: Commit updated data files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard_data.js dashboard_data.json stacking_plan_data.js index.html 2>/dev/null || true
+          git add hk-office-360/dashboard_data.js hk-office-360/dashboard_data.json hk-office-360/stacking_plan_data.js hk-office-360/index.html 2>/dev/null || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Auto-refresh dashboard data [skip ci]"
+          git push

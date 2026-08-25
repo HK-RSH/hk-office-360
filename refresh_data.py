@@ -214,7 +214,7 @@ sav = sav.dropna(subset=['Year','Month','VacPct'])
 month_ord = {m:i for i,m in enumerate(['January','February','March','April','May','June',
                                         'July','August','September','October','November','December'],1)}
 sav['MN'] = sav['Month'].map(month_ord)
-sav_ann = sav[sav['Year']>=2008].groupby('Year').apply(lambda x: x.nlargest(1,'MN')).reset_index(drop=True)
+sav_ann = sav[sav['Year']>=2008].sort_values('MN', ascending=False).groupby('Year').first().reset_index()
 
 hki_r, kln_r, nt_r = (float(hki_row['Vacancy_pct']), float(kln_row['Vacancy_pct']), float(nt_row['Vacancy_pct']))
 all_r = float(overall_row['Vacancy_pct'])

@@ -1448,11 +1448,11 @@ GITHUB_DIR = BASE if os.path.basename(BASE) == 'hk-office-360' else os.path.join
 INDEX_HTML  = os.path.join(GITHUB_DIR, "index.html")
 
 if os.path.isdir(GITHUB_DIR):
-    # 1. Copy the three data files
+    # 1. Copy the three data files (skip if already in the same folder)
     for fname in ("dashboard_data.js", "dashboard_data.json", "stacking_plan_data.js"):
         src = os.path.join(BASE, fname)
         dst = os.path.join(GITHUB_DIR, fname)
-        if os.path.exists(src):
+        if os.path.exists(src) and os.path.abspath(src) != os.path.abspath(dst):
             shutil.copy2(src, dst)
 
     # 2. Update <script src> tags in index.html with ?v=YYYYMMDD (cache-busting)

@@ -1272,6 +1272,7 @@ with open(js_path, 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=2, ensure_ascii=False, default=str)
     f.write(";")
 
+
 size_kb = os.path.getsize(OUT) / 1024
 print(f"\n✓ dashboard_data.json written ({size_kb:.0f} KB) at {data['generated_at']}")
 print(f"  Buildings: {len(data['rent_vacancy']['buildings'])}")

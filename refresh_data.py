@@ -205,11 +205,17 @@ for label in SUBMARKET_COLS:
 # MthSum snapshot are read (further below). See "vac_by_submarket" block.
 
 # ── Overall vacancy % (SAV) ──
-df_sav = pd.read_excel(db_path, sheet_name='SAV', header=None)
-sav = df_sav.iloc[7:, [0,1,12]].copy()
+# The 'SAV' sheet was retired from the database; Output_SAV carries all
+# non-building-level data now, with 'Overall Hong Kong' as the citywide series.
+# Its Overall HK block keeps the same column positions the old SAV sheet used
+# (col 4 = Vacant Space, col 12 = Vacancy rate), but the header is two rows
+# deeper (data starts at index 9, not 7) and the rate is stored as a FRACTION
+# rather than a percent — hence the *100 below.
+df_sav = df_sav2                       # Output_SAV, already read above
+sav = df_sav.iloc[9:, [0,1,12]].copy()
 sav.columns = ['Year','Month','VacPct']
 sav['Year'] = pd.to_numeric(sav['Year'], errors='coerce')
-sav['VacPct'] = pd.to_numeric(sav['VacPct'], errors='coerce')
+sav['VacPct'] = pd.to_numeric(sav['VacPct'], errors='coerce') * 100
 sav = sav.dropna(subset=['Year','Month','VacPct'])
 month_ord = {m:i for i,m in enumerate(['January','February','March','April','May','June',
                                         'July','August','September','October','November','December'],1)}
@@ -391,8 +397,8 @@ sp_last = (sp_yr.groupby(['RefNo', 'Year'])
                .apply(lambda x: x.nlargest(1, 'Month'))
                .reset_index(drop=True))
 
-# Overall HK vacant sf — use SAV sheet pre-calculated value (col 4)
-sav_vacsf = df_sav.iloc[7:, [0, 1, 4]].copy()
+# Overall HK vacant sf — Output_SAV 'Overall Hong Kong' block, col 4 (Vacant Space)
+sav_vacsf = df_sav.iloc[9:, [0, 1, 4]].copy()
 sav_vacsf.columns = ['Year', 'Month', 'VacSF']
 sav_vacsf['Year']  = pd.to_numeric(sav_vacsf['Year'],  errors='coerce')
 sav_vacsf['VacSF'] = pd.to_numeric(sav_vacsf['VacSF'], errors='coerce')
@@ -1011,11 +1017,29 @@ print(f"    Rent & Vacancy: {len(bldg_records)} buildings, snap={snap_date}")
 print("  Reading Leasing Transactions...")
 df_tx = pd.read_excel(os.path.join(DB, "Leasing Transactions 2.0.xlsx"),
                       sheet_name='Transactions', header=None)
-# Cols: 0=Date,1=Year,2=Month,3=Quarter,5=Area,6=District,7=Submarket,
-#       8=Building,9=Grade(detailed),10=Grade2(A/B),13=Tenant,15=TenantRegion,17=Sector,19=TxnType,46=GFA,47=NFA,59=Agency,70=BuildingCode
-txn = df_tx.iloc[1:, [0,1,2,3,5,6,7,8,9,10,13,15,17,19,46,47,59,70]].copy()
-txn.columns = ['Date','Year','Month','Quarter','Area','District','Submarket',
-               'Building','Grade','Grade2','Tenant','TenantRegion','Sector','TxnType','GFA','NFA','Agency','BuildingCode']
+# Columns are located BY NAME from the header row, not by fixed position.
+# The workbook has gained columns before (a 'Whole Floor (Y/N)' insert shifted
+# everything from index 13 onward by one, which silently broke the transaction
+# type and area reads), so fixed indices are not safe here.
+_tx_hdr = {str(v).strip(): i for i, v in enumerate(df_tx.iloc[0]) if pd.notna(v)}
+_TX_COLS = [
+    ('Date',         'Date'),            ('Year',        'Year'),
+    ('Month',        'Month'),           ('Quarter',     'Quarter'),
+    ('Area',         'Area'),            ('District',    'District'),
+    ('Submarket',    'Sub-market'),      ('Building',    'Building'),
+    ('Grade',        'Grade'),           ('Grade2',      'Grade (2)'),
+    ('Tenant',       'Tenant'),          ('TenantRegion','Tenant Region'),
+    ('Sector',       'Sector'),          ('TxnType',     'Transaction Type'),
+    ('GFA',          'Total GFA (sf)'),  ('NFA',         'Total NFA (sf)'),
+    ('Agency',       'Agency'),          ('BuildingCode','Building Code'),
+]
+_missing = [src for _, src in _TX_COLS if src not in _tx_hdr]
+if _missing:
+    raise SystemExit("Leasing Transactions: column(s) not found in the header: "
+                     + ", ".join(_missing)
+                     + "\n  The sheet layout has changed. Check the header row.")
+txn = df_tx.iloc[1:, [_tx_hdr[src] for _, src in _TX_COLS]].copy()
+txn.columns = [dest for dest, _ in _TX_COLS]
 txn['Agency'] = txn['Agency'].astype(str).str.strip()
 txn['Agency'] = txn['Agency'].replace({'nan':'','Direct ':'Direct','JLL ':'JLL','Savills ':'Savills',
                                         'Blackhill':'Blackhills','BlackHills':'Blackhills',

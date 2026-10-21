@@ -10,8 +10,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
-<script src="dashboard_data.js?v=20260904"></script>
-<script src="stacking_plan_data.js?v=20260904"></script>
+<script src="dashboard_data.js?v=20261021"></script>
+<script src="stacking_plan_data.js?v=20261021"></script>
 <style>
 @font-face{font-family:"Financier Display";src:url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-regular.woff2") format("woff2"),url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-regular-w.woff") format("woff");font-weight:400;font-style:normal;font-display:block}
 @font-face{font-family:"Financier Display";src:url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-medium.woff2") format("woff2"),url("https://mediaassets.cbre.com/-/media/Themes/CBRE/CbreDotCom/fonts/financier-display-web-medium-w.woff") format("woff");font-weight:500;font-style:normal;font-display:block}
@@ -2172,14 +2172,44 @@ function updateBldgCharts(bldgs) {
 }
 
 // ── Leaflet Map ──────────────────────────────────
+/* Basemap.
+   CARTO's basemaps (basemaps.cartocdn.com) now require an API key and render
+   "API KEY REQUIRED" across every tile, so we use keyless providers instead.
+   Esri's Light Gray Canvas is the closest match to the old CARTO Positron look.
+   If its tiles fail to load we fall back to OpenStreetMap automatically, so the
+   map degrades to a working basemap rather than a dead one. */
+var BASEMAPS = {
+  esriGray: {
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+    opts: { attribution: '©Esri ©OpenStreetMap contributors',
+            maxZoom: 19, maxNativeZoom: 16 }
+  },
+  osm: {
+    url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    opts: { attribution: '©OpenStreetMap contributors', maxZoom: 19 }
+  }
+};
+
+function addBasemap(map) {
+  var primary = L.tileLayer(BASEMAPS.esriGray.url, BASEMAPS.esriGray.opts);
+  var swapped = false;
+  primary.on('tileerror', function () {
+    if (swapped) return;
+    swapped = true;
+    console.warn('Basemap: Esri tiles unavailable, falling back to OpenStreetMap');
+    map.removeLayer(primary);
+    L.tileLayer(BASEMAPS.osm.url, BASEMAPS.osm.opts).addTo(map).bringToBack();
+  });
+  primary.addTo(map);
+  return primary;
+}
+
 function initMap() {
   if(MAP) return;
   const container = document.getElementById('map-container');
   if(!container || container.offsetParent===null) return;
   MAP = L.map('map-container').setView([22.33, 114.17], 12);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-    attribution:'©OpenStreetMap ©CartoDB', subdomains:'abcd', maxZoom:19
-  }).addTo(MAP);
+  addBasemap(MAP);
   MG = L.layerGroup().addTo(MAP);
   updateMapMarkers(ALL_BLDGS);
 }
@@ -2264,9 +2294,7 @@ function initSupMap() {
   if (!el) return;
   SUP_MAP = L.map('sup-map-container', { zoomControl:true, scrollWheelZoom:true })
               .setView([22.35, 114.12], 11);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution:'©OpenStreetMap ©CartoDB', subdomains:'abcd', maxZoom:19
-  }).addTo(SUP_MAP);
+  addBasemap(SUP_MAP);
   SUP_MG = L.layerGroup().addTo(SUP_MAP);
   // Render current projects (already sequenced from buildSupplyTab)
   if (ALL_PROJ) {
